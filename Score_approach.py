@@ -1,7 +1,7 @@
 import copy
 from pycorenlp import StanfordCoreNLP
 from nltk.tokenize import sent_tokenize
-nlp = StanfordCoreNLP('http://localhost:9000')
+nlp = StanfordCoreNLP('http://0.0.0.0:9002')
 def clean(text):
 	text = text.replace(" n ' t", "n't")
 	text = text.replace(" ' s", "'s")
@@ -15,10 +15,10 @@ def Parse(S):
 	Parsed = []
 	for text in sentences:
 		result = nlp.annotate(text,properties = {'annotaters': 'pos', 'outputFormat': 'conll', 'timeout': '50000',})
-		Parsing = open("Parsing.txt", "w+")
+		Parsing = open("Parsing_test.txt", "w+")
 		print(result, file = Parsing)
 		Parsing.close()
-		readParsing = open("Parsing.txt", "r")
+		readParsing = open("Parsing_test.txt", "r")
 		for line in readParsing:
 			A = line.split()
 			if(len(A) != 0):
@@ -542,8 +542,8 @@ def convert_to_sentence(Output_sentence):
 
 def Partial_Verb_Phrase_Ellipsis(sentence, All_words, Parsed):
 	global cases_ellipsis
-	with_ellipsis = open("With_ellipsis.txt", "a+")
-	with_elliptical_verb = open("With_elliptical_verb.txt", "a+")
+	with_ellipsis = open("With_ellipsis_test.txt", "a+")
+	with_elliptical_verb = open("With_elliptical_verb_test.txt", "a+")
 	Indicator_To_Be = ["is", "isn’t","be", "been", "was", "wasn’t", "am", "ain’t", "are", "aren’t"]
 	Indicator_To_Have = ["has", "hasn’t", "have", "had"]
 	Indicator_To_Do = ["does", "doesn’t", "do", "don’t", "did"]
@@ -612,7 +612,7 @@ def Partial_Verb_Phrase_Ellipsis(sentence, All_words, Parsed):
 
 # f1 = open('Cases_Ellipsis_WSJ_sample_1.txt', 'r')
 # f2 = open('Cases_Ellipsis_WSJ_solutions_sample_1.txt', 'r')
-f1 = open("Cases_Ellipsis_WSJ_200_last.txt", "r")
+f1 = open("../Data/test_monolingual_data.txt", "r")
 text = f1.read()
 text = text.replace("\n\n", "\n")
 text = clean(text)
@@ -626,7 +626,7 @@ cases_ellipsis = 0
 cases_no_ellipsis = 0
 count = 0
 for sent in text:
-	if(count == 100):
+	if(count == 10000):
 		break
 	Parsed = Parse(sent)
 	print(sent)

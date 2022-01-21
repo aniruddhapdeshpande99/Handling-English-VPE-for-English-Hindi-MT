@@ -1,0 +1,8712 @@
+=====
+I did, but not to see auntie!
+
+1 :  ['I', '2', 'nsubj', 'PRP', 'I']
+
+2 :  ['did', '0', 'ROOT', 'VBD', 'do']
+
+3 :  [',', '2', 'punct', ',', ',']
+
+4 :  ['but', '2', 'cc', 'CC', 'but']
+
+5 :  ['not', '7', 'neg', 'RB', 'not']
+
+6 :  ['to', '7', 'mark', 'TO', 'to']
+
+7 :  ['see', '2', 'conj', 'VB', 'see']
+
+8 :  ['auntie', '7', 'dobj', 'NN', 'auntie']
+
+9 :  ['!', '2', 'punct', '.', '!']
+
+Ellipsis at:  did
+
+{6: 0}
+
+After looking at noun subjects: 
+
+{6: 2}
+
+After disfavouring complement clauses: 
+
+{6: 2}
+
+After looking at auxiliaries: 
+
+{6: 2}
+
+After backtracking up dependency tree: 
+
+{6: 2}
+
+Disadvantaging backward gapping: 
+
+{6: 1}
+
+Main verb:  6
+
+Elliptical VP:  [6]
+
+Output sentence:  ['I', 'did', 'SEE', ',', 'but', 'not', 'to', 'see', 'auntie', '!']
+
+Found verb:  ['see']
+
+=====
+
+
+
+=====
+Would you believe that, too?
+
+1 :  ['Would', '0', 'ROOT', 'MD', 'would']
+
+2 :  ['you', '1', 'dep', 'PRP', 'you']
+
+3 :  ['believe', '4', 'dep', 'VB', 'believe']
+
+4 :  ['that', '1', 'dep', 'IN', 'that']
+
+5 :  [',', '4', 'punct', ',', ',']
+
+6 :  ['too', '4', 'advmod', 'RB', 'too']
+
+7 :  ['?', '1', 'punct', '.', '?']
+
+Ellipsis at:  Would
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 0}
+
+Disadvantaging backward gapping: 
+
+{2: -1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Would', 'BELIEVE', 'you', 'believe', 'that', ',', 'too', '?']
+
+Found verb:  ['believe']
+
+=====
+
+
+
+=====
+Then are you hitting on me?
+
+1 :  ['Then', '2', 'advmod', 'RB', 'then']
+
+2 :  ['are', '0', 'ROOT', 'VBP', 'be']
+
+3 :  ['you', '2', 'nsubj', 'PRP', 'you']
+
+4 :  ['hitting', '3', 'acl', 'VBG', 'hit']
+
+5 :  ['on', '6', 'case', 'IN', 'on']
+
+6 :  ['me', '4', 'nmod', 'PRP', 'I']
+
+7 :  ['?', '2', 'punct', '.', '?']
+
+Ellipsis at:  are
+
+{3: 0}
+
+After looking at noun subjects: 
+
+{3: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0}
+
+After looking at auxiliaries: 
+
+{3: 0}
+
+After backtracking up dependency tree: 
+
+{3: 0}
+
+Disadvantaging backward gapping: 
+
+{3: -1}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['Then', 'are', 'HITTING', 'you', 'hitting', 'on', 'me', '?']
+
+Found verb:  ['hitting']
+
+=====
+
+
+
+=====
+While watching her sleep like a baby, it may be forward, but this occurred to me.
+
+1 :  ['While', '2', 'mark', 'IN', 'while']
+
+2 :  ['watching', '11', 'advcl', 'VBG', 'watch']
+
+3 :  ['her', '4', 'nmod:poss', 'PRP$', 'she']
+
+4 :  ['sleep', '2', 'dobj', 'NN', 'sleep']
+
+5 :  ['like', '7', 'case', 'IN', 'like']
+
+6 :  ['a', '7', 'det', 'DT', 'a']
+
+7 :  ['baby', '2', 'nmod', 'NN', 'baby']
+
+8 :  [',', '11', 'punct', ',', ',']
+
+9 :  ['it', '11', 'nsubj', 'PRP', 'it']
+
+10 :  ['may', '11', 'aux', 'MD', 'may']
+
+11 :  ['be', '0', 'ROOT', 'VB', 'be']
+
+12 :  ['forward', '11', 'advmod', 'RB', 'forward']
+
+13 :  [',', '11', 'punct', ',', ',']
+
+14 :  ['but', '11', 'cc', 'CC', 'but']
+
+15 :  ['this', '16', 'nsubj', 'DT', 'this']
+
+16 :  ['occurred', '11', 'conj', 'VBD', 'occur']
+
+17 :  ['to', '18', 'case', 'TO', 'to']
+
+18 :  ['me', '16', 'nmod', 'PRP', 'I']
+
+19 :  ['.', '11', 'punct', '.', '.']
+
+Ellipsis at:  be
+
+{1: 0, 15: 0}
+
+After looking at noun subjects: 
+
+{1: 0}
+
+After disfavouring complement clauses: 
+
+{1: 0}
+
+After looking at auxiliaries: 
+
+{1: 0}
+
+After backtracking up dependency tree: 
+
+{1: 0}
+
+Disadvantaging backward gapping: 
+
+{1: 0}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['While', 'watching', 'her', 'sleep', 'like', 'a', 'baby', ',', 'it', 'may', 'be', 'WATCHING', 'forward', ',', 'but', 'this', 'occurred', 'to', 'me', '.']
+
+Found verb:  ['watching']
+
+=====
+
+
+
+=====
+So what are you gonna do?
+
+1 :  ['So', '5', 'advmod', 'RB', 'so']
+
+2 :  ['what', '5', 'dep', 'WP', 'what']
+
+3 :  ['are', '5', 'aux', 'VBP', 'be']
+
+4 :  ['you', '5', 'nsubj', 'PRP', 'you']
+
+5 :  ['gon', '0', 'ROOT', 'VBG', 'gon']
+
+6 :  ['na', '7', 'mark', 'TO', 'na']
+
+7 :  ['do', '5', 'xcomp', 'VB', 'do']
+
+8 :  ['?', '5', 'punct', '.', '?']
+
+Ellipsis at:  do
+
+{2: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{4: 2}
+
+After disfavouring complement clauses: 
+
+{4: -1}
+
+After looking at auxiliaries: 
+
+{4: -1}
+
+After backtracking up dependency tree: 
+
+{4: 0}
+
+Disadvantaging backward gapping: 
+
+{4: 0}
+
+Main verb:  4
+
+Elliptical VP:  [4]
+
+Output sentence:  ['So', 'what', 'are', 'you', 'gon', 'na', 'do', 'GON', '?']
+
+Found verb:  ['gon']
+
+=====
+
+
+
+=====
+Don't be a coward.
+
+1 :  ['Do', '5', 'aux', 'VBP', 'do']
+
+2 :  ["n't", '5', 'neg', 'RB', 'not']
+
+3 :  ['be', '5', 'cop', 'VB', 'be']
+
+4 :  ['a', '5', 'det', 'DT', 'a']
+
+5 :  ['coward', '0', 'ROOT', 'NN', 'coward']
+
+6 :  ['.', '5', 'punct', '.', '.']
+
+Ellipsis at:  Do
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 1}
+
+After backtracking up dependency tree: 
+
+{2: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Do', "n't", 'BE', 'be', 'a', 'coward', '.']
+
+Found verb:  ['be']
+
+=====
+
+
+
+=====
+But, you know, she must have been an extraordinary girl.
+
+1 :  ['But', '12', 'cc', 'CC', 'but']
+
+2 :  [',', '4', 'punct', ',', ',']
+
+3 :  ['you', '4', 'nsubj', 'PRP', 'you']
+
+4 :  ['know', '12', 'parataxis', 'VBP', 'know']
+
+5 :  [',', '4', 'punct', ',', ',']
+
+6 :  ['she', '12', 'nsubj', 'PRP', 'she']
+
+7 :  ['must', '12', 'aux', 'MD', 'must']
+
+8 :  ['have', '12', 'aux', 'VB', 'have']
+
+9 :  ['been', '12', 'cop', 'VBN', 'be']
+
+10 :  ['an', '12', 'det', 'DT', 'a']
+
+11 :  ['extraordinary', '12', 'amod', 'JJ', 'extraordinary']
+
+12 :  ['girl', '0', 'ROOT', 'NN', 'girl']
+
+13 :  ['.', '12', 'punct', '.', '.']
+
+Ellipsis at:  must
+
+{3: 0, 7: 0, 8: 0}
+
+After looking at noun subjects: 
+
+{3: 0, 7: 0, 8: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0, 7: 0, 8: 0}
+
+After looking at auxiliaries: 
+
+{3: 0, 7: 0, 8: 1}
+
+After backtracking up dependency tree: 
+
+{3: 0, 7: 0, 8: 1}
+
+Disadvantaging backward gapping: 
+
+{3: 0, 7: -1, 8: 0}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['But', ',', 'you', 'know', ',', 'she', 'must', 'KNOW', 'have', 'been', 'an', 'extraordinary', 'girl', '.']
+
+Ellipsis at:  have
+
+{3: 0, 8: 0}
+
+After looking at noun subjects: 
+
+{3: 0, 8: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0, 8: 0}
+
+After looking at auxiliaries: 
+
+{3: 0, 8: 1}
+
+After backtracking up dependency tree: 
+
+{3: 0, 8: 1}
+
+Disadvantaging backward gapping: 
+
+{3: 0, 8: 0}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['But', ',', 'you', 'know', ',', 'she', 'must', 'KNOW', 'have', 'KNOW', 'been', 'an', 'extraordinary', 'girl', '.']
+
+Found verb:  ['know']
+
+=====
+
+
+
+=====
+Can't I join us, can I?
+
+1 :  ['Ca', '4', 'aux', 'MD', 'can']
+
+2 :  ["n't", '4', 'neg', 'RB', 'not']
+
+3 :  ['I', '4', 'nsubj', 'PRP', 'I']
+
+4 :  ['join', '0', 'ROOT', 'VB', 'join']
+
+5 :  ['us', '4', 'dobj', 'PRP', 'we']
+
+6 :  [',', '4', 'punct', ',', ',']
+
+7 :  ['can', '4', 'dep', 'MD', 'can']
+
+8 :  ['I', '7', 'dep', 'PRP', 'I']
+
+9 :  ['?', '4', 'punct', '.', '?']
+
+Ellipsis at:  can
+
+{3: 0}
+
+After looking at noun subjects: 
+
+{3: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0}
+
+After looking at auxiliaries: 
+
+{3: 1}
+
+After backtracking up dependency tree: 
+
+{3: 2}
+
+Disadvantaging backward gapping: 
+
+{3: 2}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['Ca', "n't", 'I', 'join', 'us', ',', 'can', 'JOIN', 'I', '?']
+
+Found verb:  ['join']
+
+=====
+
+
+
+=====
+If I prepare nothing, she may murder me.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['I', '3', 'nsubj', 'PRP', 'I']
+
+3 :  ['prepare', '8', 'advcl', 'VBP', 'prepare']
+
+4 :  ['nothing', '3', 'dobj', 'NN', 'nothing']
+
+5 :  [',', '8', 'punct', ',', ',']
+
+6 :  ['she', '8', 'nsubj', 'PRP', 'she']
+
+7 :  ['may', '8', 'aux', 'MD', 'may']
+
+8 :  ['murder', '0', 'ROOT', 'NN', 'murder']
+
+9 :  ['me', '8', 'dobj', 'PRP', 'I']
+
+10 :  ['.', '8', 'punct', '.', '.']
+
+Ellipsis at:  may
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 0}
+
+Disadvantaging backward gapping: 
+
+{2: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['If', 'I', 'prepare', 'nothing', ',', 'she', 'may', 'PREPARE', 'murder', 'me', '.']
+
+Found verb:  ['prepare']
+
+=====
+
+
+
+=====
+You mean she could be my pussy?
+
+1 :  ['You', '2', 'nsubj', 'PRP', 'you']
+
+2 :  ['mean', '0', 'ROOT', 'VBP', 'mean']
+
+3 :  ['she', '7', 'nsubj', 'PRP', 'she']
+
+4 :  ['could', '7', 'aux', 'MD', 'could']
+
+5 :  ['be', '7', 'cop', 'VB', 'be']
+
+6 :  ['my', '7', 'nmod:poss', 'PRP$', 'my']
+
+7 :  ['pussy', '2', 'ccomp', 'NN', 'pussy']
+
+8 :  ['?', '2', 'punct', '.', '?']
+
+Ellipsis at:  could
+
+{1: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{1: 0, 4: 0}
+
+After disfavouring complement clauses: 
+
+{1: 0, 4: 0}
+
+After looking at auxiliaries: 
+
+{1: 0, 4: 1}
+
+After backtracking up dependency tree: 
+
+{1: 1, 4: 1}
+
+Disadvantaging backward gapping: 
+
+{1: 1, 4: 0}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['You', 'mean', 'she', 'could', 'MEAN', 'be', 'my', 'pussy', '?']
+
+Found verb:  ['mean']
+
+=====
+
+
+
+=====
+I think you didn't.
+
+1 :  ['I', '2', 'nsubj', 'PRP', 'I']
+
+2 :  ['think', '0', 'ROOT', 'VBP', 'think']
+
+3 :  ['you', '4', 'nsubj', 'PRP', 'you']
+
+4 :  ['did', '2', 'ccomp', 'VBD', 'do']
+
+5 :  ["n't", '4', 'neg', 'RB', 'not']
+
+6 :  ['.', '2', 'punct', '.', '.']
+
+Ellipsis at:  did
+
+{1: 0}
+
+After looking at noun subjects: 
+
+{1: 1}
+
+After disfavouring complement clauses: 
+
+{1: -2}
+
+After looking at auxiliaries: 
+
+{1: -2}
+
+After backtracking up dependency tree: 
+
+{1: -1}
+
+Disadvantaging backward gapping: 
+
+{1: -1}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['I', 'think', 'you', 'did', "n't", 'THINK', '.']
+
+Found verb:  ['think']
+
+=====
+
+
+
+=====
+If you do, I'll take her.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '7', 'advcl', 'VBP', 'do']
+
+4 :  [',', '7', 'punct', ',', ',']
+
+5 :  ['I', '7', 'nsubj', 'PRP', 'I']
+
+6 :  ["'ll", '7', 'aux', 'MD', 'will']
+
+7 :  ['take', '0', 'ROOT', 'VB', 'take']
+
+8 :  ['her', '7', 'dobj', 'PRP', 'she']
+
+9 :  ['.', '7', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{6: 0}
+
+After looking at noun subjects: 
+
+{6: 1}
+
+After disfavouring complement clauses: 
+
+{6: 1}
+
+After looking at auxiliaries: 
+
+{6: 1}
+
+After backtracking up dependency tree: 
+
+{6: 2}
+
+Disadvantaging backward gapping: 
+
+{6: 1}
+
+Main verb:  6
+
+Elliptical VP:  [6]
+
+Output sentence:  ['If', 'you', 'do', 'TAKE', ',', 'I', "'ll", 'take', 'her', '.']
+
+Found verb:  ['take']
+
+=====
+
+
+
+=====
+If you do, ask him to take you.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '5', 'advcl', 'VBP', 'do']
+
+4 :  [',', '5', 'punct', ',', ',']
+
+5 :  ['ask', '0', 'ROOT', 'VBP', 'ask']
+
+6 :  ['him', '5', 'dobj', 'PRP', 'he']
+
+7 :  ['to', '8', 'mark', 'TO', 'to']
+
+8 :  ['take', '5', 'xcomp', 'VB', 'take']
+
+9 :  ['you', '8', 'dobj', 'PRP', 'you']
+
+10 :  ['.', '5', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{4: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{4: 0, 7: 0}
+
+After disfavouring complement clauses: 
+
+{4: 0, 7: 0}
+
+After looking at auxiliaries: 
+
+{4: 0, 7: 0}
+
+After backtracking up dependency tree: 
+
+{4: 1, 7: 0}
+
+Disadvantaging backward gapping: 
+
+{4: 0, 7: -1}
+
+Main verb:  4
+
+Elliptical VP:  [4]
+
+Output sentence:  ['If', 'you', 'do', 'ASK', ',', 'ask', 'him', 'to', 'take', 'you', '.']
+
+Found verb:  ['ask']
+
+=====
+
+
+
+=====
+If you don't, I'll kill you!
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '8', 'advcl', 'VBP', 'do']
+
+4 :  ["n't", '3', 'neg', 'RB', 'not']
+
+5 :  [',', '8', 'punct', ',', ',']
+
+6 :  ['I', '8', 'nsubj', 'PRP', 'I']
+
+7 :  ["'ll", '8', 'aux', 'MD', 'will']
+
+8 :  ['kill', '0', 'ROOT', 'VB', 'kill']
+
+9 :  ['you', '8', 'dobj', 'PRP', 'you']
+
+10 :  ['!', '8', 'punct', '.', '!']
+
+Ellipsis at:  do
+
+{7: 0}
+
+After looking at noun subjects: 
+
+{7: 1}
+
+After disfavouring complement clauses: 
+
+{7: 1}
+
+After looking at auxiliaries: 
+
+{7: 1}
+
+After backtracking up dependency tree: 
+
+{7: 2}
+
+Disadvantaging backward gapping: 
+
+{7: 1}
+
+Main verb:  7
+
+Elliptical VP:  [7]
+
+Output sentence:  ['If', 'you', 'do', "n't", 'KILL', ',', 'I', "'ll", 'kill', 'you', '!']
+
+Found verb:  ['kill']
+
+=====
+
+
+
+=====
+I had my eyes closed.
+
+1 :  ['I', '2', 'nsubj', 'PRP', 'I']
+
+2 :  ['had', '0', 'ROOT', 'VBD', 'have']
+
+3 :  ['my', '4', 'nmod:poss', 'PRP$', 'my']
+
+4 :  ['eyes', '5', 'nsubj', 'NNS', 'eye']
+
+5 :  ['closed', '2', 'ccomp', 'VBD', 'close']
+
+6 :  ['.', '2', 'punct', '.', '.']
+
+Ellipsis at:  had
+
+{4: 0}
+
+After looking at noun subjects: 
+
+{4: 0}
+
+After disfavouring complement clauses: 
+
+{4: 0}
+
+After looking at auxiliaries: 
+
+{4: 0}
+
+After backtracking up dependency tree: 
+
+{4: 0}
+
+Disadvantaging backward gapping: 
+
+{4: -1}
+
+Main verb:  4
+
+Elliptical VP:  [4]
+
+Output sentence:  ['I', 'had', 'CLOSED', 'my', 'eyes', 'closed', '.']
+
+Found verb:  ['closed']
+
+=====
+
+
+
+=====
+If you don't, I'll kill you.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '8', 'advcl', 'VBP', 'do']
+
+4 :  ["n't", '3', 'neg', 'RB', 'not']
+
+5 :  [',', '8', 'punct', ',', ',']
+
+6 :  ['I', '8', 'nsubj', 'PRP', 'I']
+
+7 :  ["'ll", '8', 'aux', 'MD', 'will']
+
+8 :  ['kill', '0', 'ROOT', 'VB', 'kill']
+
+9 :  ['you', '8', 'dobj', 'PRP', 'you']
+
+10 :  ['.', '8', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{7: 0}
+
+After looking at noun subjects: 
+
+{7: 1}
+
+After disfavouring complement clauses: 
+
+{7: 1}
+
+After looking at auxiliaries: 
+
+{7: 1}
+
+After backtracking up dependency tree: 
+
+{7: 2}
+
+Disadvantaging backward gapping: 
+
+{7: 1}
+
+Main verb:  7
+
+Elliptical VP:  [7]
+
+Output sentence:  ['If', 'you', 'do', "n't", 'KILL', ',', 'I', "'ll", 'kill', 'you', '.']
+
+Found verb:  ['kill']
+
+=====
+
+
+
+=====
+The prettiest is when she's playing the piano.
+
+1 :  ['The', '2', 'det', 'DT', 'the']
+
+2 :  ['prettiest', '3', 'nsubj', 'JJS', 'prettiest']
+
+3 :  ['is', '0', 'ROOT', 'VBZ', 'be']
+
+4 :  ['when', '7', 'advmod', 'WRB', 'when']
+
+5 :  ['she', '7', 'nsubj', 'PRP', 'she']
+
+6 :  ["'s", '7', 'aux', 'VBZ', 'be']
+
+7 :  ['playing', '3', 'advcl', 'VBG', 'play']
+
+8 :  ['the', '9', 'det', 'DT', 'the']
+
+9 :  ['piano', '7', 'dobj', 'NN', 'piano']
+
+10 :  ['.', '3', 'punct', '.', '.']
+
+Ellipsis at:  is
+
+{5: 0, 6: 0}
+
+After looking at noun subjects: 
+
+{6: 0}
+
+After disfavouring complement clauses: 
+
+{6: 0}
+
+After looking at auxiliaries: 
+
+{6: 0}
+
+After backtracking up dependency tree: 
+
+{6: 0}
+
+Disadvantaging backward gapping: 
+
+{6: -1}
+
+Main verb:  6
+
+Elliptical VP:  [6]
+
+Output sentence:  ['The', 'prettiest', 'is', 'PLAYING', 'when', 'she', "'s", 'playing', 'the', 'piano', '.']
+
+Found verb:  ['playing']
+
+=====
+
+
+
+=====
+What are we supposed to do if caught by teacher?
+
+1 :  ['What', '4', 'dep', 'WP', 'what']
+
+2 :  ['are', '4', 'auxpass', 'VBP', 'be']
+
+3 :  ['we', '4', 'nsubjpass', 'PRP', 'we']
+
+4 :  ['supposed', '0', 'ROOT', 'VBN', 'suppose']
+
+5 :  ['to', '6', 'mark', 'TO', 'to']
+
+6 :  ['do', '4', 'xcomp', 'VB', 'do']
+
+7 :  ['if', '8', 'mark', 'IN', 'if']
+
+8 :  ['caught', '6', 'advcl', 'VBN', 'catch']
+
+9 :  ['by', '10', 'case', 'IN', 'by']
+
+10 :  ['teacher', '8', 'nmod', 'NN', 'teacher']
+
+11 :  ['?', '4', 'punct', '.', '?']
+
+Ellipsis at:  do
+
+{1: 0, 3: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{3: 2, 7: 0}
+
+After disfavouring complement clauses: 
+
+{3: -1, 7: 0}
+
+After looking at auxiliaries: 
+
+{3: -1, 7: 0}
+
+After backtracking up dependency tree: 
+
+{3: 0, 7: 0}
+
+Disadvantaging backward gapping: 
+
+{3: 0, 7: -1}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['What', 'are', 'we', 'supposed', 'to', 'do', 'SUPPOSE', 'if', 'caught', 'by', 'teacher', '?']
+
+Found verb:  ['supposed']
+
+=====
+
+
+
+=====
+Can I see what's in your pocket?
+
+1 :  ['Can', '0', 'ROOT', 'MD', 'can']
+
+2 :  ['I', '1', 'dep', 'PRP', 'I']
+
+3 :  ['see', '8', 'dep', 'VB', 'see']
+
+4 :  ['what', '8', 'nsubj', 'WP', 'what']
+
+5 :  ["'s", '8', 'cop', 'VBZ', 'be']
+
+6 :  ['in', '8', 'case', 'IN', 'in']
+
+7 :  ['your', '8', 'nmod:poss', 'PRP$', 'you']
+
+8 :  ['pocket', '1', 'dep', 'NN', 'pocket']
+
+9 :  ['?', '1', 'punct', '.', '?']
+
+Ellipsis at:  Can
+
+{2: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 0}
+
+Disadvantaging backward gapping: 
+
+{2: -1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Can', 'SEE', 'I', 'see', 'what', "'s", 'in', 'your', 'pocket', '?']
+
+Found verb:  ['see']
+
+=====
+
+
+
+=====
+Doesn't look bad, does he?
+
+1 :  ['Does', '3', 'aux', 'VBZ', 'do']
+
+2 :  ["n't", '3', 'neg', 'RB', 'not']
+
+3 :  ['look', '6', 'dep', 'VB', 'look']
+
+4 :  ['bad', '3', 'xcomp', 'JJ', 'bad']
+
+5 :  [',', '6', 'punct', ',', ',']
+
+6 :  ['does', '0', 'ROOT', 'VBZ', 'do']
+
+7 :  ['he', '6', 'nsubj', 'PRP', 'he']
+
+8 :  ['?', '6', 'punct', '.', '?']
+
+Ellipsis at:  does
+
+{0: 0, 2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 1}
+
+After backtracking up dependency tree: 
+
+{2: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Does', "n't", 'look', 'bad', ',', 'does', 'LOOK', 'he', '?']
+
+Found verb:  ['look']
+
+=====
+
+
+
+=====
+If it hurts, act like it doesn't.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['it', '3', 'nsubj', 'PRP', 'it']
+
+3 :  ['hurts', '5', 'advcl', 'VBZ', 'hurt']
+
+4 :  [',', '5', 'punct', ',', ',']
+
+5 :  ['act', '0', 'ROOT', 'VBP', 'act']
+
+6 :  ['like', '8', 'mark', 'IN', 'like']
+
+7 :  ['it', '8', 'nsubj', 'PRP', 'it']
+
+8 :  ['does', '5', 'advcl', 'VBZ', 'do']
+
+9 :  ["n't", '8', 'neg', 'RB', 'not']
+
+10 :  ['.', '5', 'punct', '.', '.']
+
+Ellipsis at:  does
+
+{2: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{2: 2, 4: 0}
+
+After disfavouring complement clauses: 
+
+{2: 2, 4: 0}
+
+After looking at auxiliaries: 
+
+{2: 2, 4: 0}
+
+After backtracking up dependency tree: 
+
+{2: 2, 4: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 2, 4: 1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['If', 'it', 'hurts', ',', 'act', 'like', 'it', 'does', "n't", 'HURT', '.']
+
+Found verb:  ['hurts']
+
+=====
+
+
+
+=====
+Sometimes I feel like I know her and sometimes I don't.
+
+1 :  ['Sometimes', '3', 'advmod', 'RB', 'sometimes']
+
+2 :  ['I', '3', 'nsubj', 'PRP', 'I']
+
+3 :  ['feel', '0', 'ROOT', 'VBP', 'feel']
+
+4 :  ['like', '6', 'mark', 'IN', 'like']
+
+5 :  ['I', '6', 'nsubj', 'PRP', 'I']
+
+6 :  ['know', '3', 'advcl', 'VBP', 'know']
+
+7 :  ['her', '6', 'dobj', 'PRP', 'she']
+
+8 :  ['and', '3', 'cc', 'CC', 'and']
+
+9 :  ['sometimes', '11', 'advmod', 'RB', 'sometimes']
+
+10 :  ['I', '11', 'nsubj', 'PRP', 'I']
+
+11 :  ['do', '3', 'ccomp', 'VBP', 'do']
+
+12 :  ["n't", '11', 'neg', 'RB', 'not']
+
+13 :  ['.', '3', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{2: 0, 5: 0}
+
+After looking at noun subjects: 
+
+{2: 2, 5: 2}
+
+After disfavouring complement clauses: 
+
+{2: -1, 5: 2}
+
+After looking at auxiliaries: 
+
+{2: -1, 5: 2}
+
+After backtracking up dependency tree: 
+
+{2: 0, 5: 2}
+
+Disadvantaging backward gapping: 
+
+{2: 0, 5: 2}
+
+Main verb:  5
+
+Elliptical VP:  [5]
+
+Output sentence:  ['Sometimes', 'I', 'feel', 'like', 'I', 'know', 'her', 'and', 'sometimes', 'I', 'do', "n't", 'KNOW', '.']
+
+Found verb:  ['know']
+
+=====
+
+
+
+=====
+She wanted to introduce a nice man to me, but I couldn't.
+
+1 :  ['She', '2', 'nsubj', 'PRP', 'she']
+
+2 :  ['wanted', '0', 'ROOT', 'VBD', 'want']
+
+3 :  ['to', '4', 'mark', 'TO', 'to']
+
+4 :  ['introduce', '2', 'xcomp', 'VB', 'introduce']
+
+5 :  ['a', '7', 'det', 'DT', 'a']
+
+6 :  ['nice', '7', 'amod', 'JJ', 'nice']
+
+7 :  ['man', '4', 'dobj', 'NN', 'man']
+
+8 :  ['to', '9', 'case', 'TO', 'to']
+
+9 :  ['me', '4', 'nmod', 'PRP', 'I']
+
+10 :  [',', '2', 'punct', ',', ',']
+
+11 :  ['but', '2', 'cc', 'CC', 'but']
+
+12 :  ['I', '13', 'nsubj', 'PRP', 'I']
+
+13 :  ['could', '2', 'conj', 'MD', 'could']
+
+14 :  ["n't", '13', 'neg', 'RB', 'not']
+
+15 :  ['.', '2', 'punct', '.', '.']
+
+Ellipsis at:  could
+
+{1: 0, 3: 0}
+
+After looking at noun subjects: 
+
+{1: 1, 3: 1}
+
+After disfavouring complement clauses: 
+
+{1: 1, 3: 1}
+
+After looking at auxiliaries: 
+
+{1: 1, 3: 1}
+
+After backtracking up dependency tree: 
+
+{1: 2, 3: 1}
+
+Disadvantaging backward gapping: 
+
+{1: 2, 3: 1}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['She', 'wanted', 'to', 'introduce', 'a', 'nice', 'man', 'to', 'me', ',', 'but', 'I', 'could', "n't", 'WANT', '.']
+
+Found verb:  ['wanted']
+
+=====
+
+
+
+=====
+Does this tree look the same as before?
+
+1 :  ['Does', '0', 'ROOT', 'VBZ', 'do']
+
+2 :  ['this', '3', 'det', 'DT', 'this']
+
+3 :  ['tree', '1', 'nsubj', 'NN', 'tree']
+
+4 :  ['look', '1', 'dep', 'VB', 'look']
+
+5 :  ['the', '6', 'det', 'DT', 'the']
+
+6 :  ['same', '4', 'dobj', 'JJ', 'same']
+
+7 :  ['as', '4', 'advcl', 'IN', 'as']
+
+8 :  ['before', '7', 'dep', 'IN', 'before']
+
+9 :  ['?', '1', 'punct', '.', '?']
+
+Ellipsis at:  Does
+
+{3: 0}
+
+After looking at noun subjects: 
+
+{3: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0}
+
+After looking at auxiliaries: 
+
+{3: 0}
+
+After backtracking up dependency tree: 
+
+{3: 0}
+
+Disadvantaging backward gapping: 
+
+{3: -1}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['Does', 'LOOK', 'this', 'tree', 'look', 'the', 'same', 'as', 'before', '?']
+
+Found verb:  ['look']
+
+=====
+
+
+
+=====
+I did, but not to see auntie!
+
+1 :  ['I', '2', 'nsubj', 'PRP', 'I']
+
+2 :  ['did', '0', 'ROOT', 'VBD', 'do']
+
+3 :  [',', '2', 'punct', ',', ',']
+
+4 :  ['but', '2', 'cc', 'CC', 'but']
+
+5 :  ['not', '7', 'neg', 'RB', 'not']
+
+6 :  ['to', '7', 'mark', 'TO', 'to']
+
+7 :  ['see', '2', 'conj', 'VB', 'see']
+
+8 :  ['auntie', '7', 'dobj', 'NN', 'auntie']
+
+9 :  ['!', '2', 'punct', '.', '!']
+
+Ellipsis at:  did
+
+{6: 0}
+
+After looking at noun subjects: 
+
+{6: 2}
+
+After disfavouring complement clauses: 
+
+{6: 2}
+
+After looking at auxiliaries: 
+
+{6: 2}
+
+After backtracking up dependency tree: 
+
+{6: 2}
+
+Disadvantaging backward gapping: 
+
+{6: 1}
+
+Main verb:  6
+
+Elliptical VP:  [6]
+
+Output sentence:  ['I', 'did', 'SEE', ',', 'but', 'not', 'to', 'see', 'auntie', '!']
+
+Found verb:  ['see']
+
+=====
+
+
+
+=====
+Would you believe that, too?
+
+1 :  ['Would', '0', 'ROOT', 'MD', 'would']
+
+2 :  ['you', '1', 'dep', 'PRP', 'you']
+
+3 :  ['believe', '4', 'dep', 'VB', 'believe']
+
+4 :  ['that', '1', 'dep', 'IN', 'that']
+
+5 :  [',', '4', 'punct', ',', ',']
+
+6 :  ['too', '4', 'advmod', 'RB', 'too']
+
+7 :  ['?', '1', 'punct', '.', '?']
+
+Ellipsis at:  Would
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 0}
+
+Disadvantaging backward gapping: 
+
+{2: -1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Would', 'BELIEVE', 'you', 'believe', 'that', ',', 'too', '?']
+
+Found verb:  ['believe']
+
+=====
+
+
+
+=====
+Then are you hitting on me?
+
+1 :  ['Then', '2', 'advmod', 'RB', 'then']
+
+2 :  ['are', '0', 'ROOT', 'VBP', 'be']
+
+3 :  ['you', '2', 'nsubj', 'PRP', 'you']
+
+4 :  ['hitting', '3', 'acl', 'VBG', 'hit']
+
+5 :  ['on', '6', 'case', 'IN', 'on']
+
+6 :  ['me', '4', 'nmod', 'PRP', 'I']
+
+7 :  ['?', '2', 'punct', '.', '?']
+
+Ellipsis at:  are
+
+{3: 0}
+
+After looking at noun subjects: 
+
+{3: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0}
+
+After looking at auxiliaries: 
+
+{3: 0}
+
+After backtracking up dependency tree: 
+
+{3: 0}
+
+Disadvantaging backward gapping: 
+
+{3: -1}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['Then', 'are', 'HITTING', 'you', 'hitting', 'on', 'me', '?']
+
+Found verb:  ['hitting']
+
+=====
+
+
+
+=====
+While watching her sleep like a baby, it may be forward, but this occurred to me.
+
+1 :  ['While', '2', 'mark', 'IN', 'while']
+
+2 :  ['watching', '11', 'advcl', 'VBG', 'watch']
+
+3 :  ['her', '4', 'nmod:poss', 'PRP$', 'she']
+
+4 :  ['sleep', '2', 'dobj', 'NN', 'sleep']
+
+5 :  ['like', '7', 'case', 'IN', 'like']
+
+6 :  ['a', '7', 'det', 'DT', 'a']
+
+7 :  ['baby', '2', 'nmod', 'NN', 'baby']
+
+8 :  [',', '11', 'punct', ',', ',']
+
+9 :  ['it', '11', 'nsubj', 'PRP', 'it']
+
+10 :  ['may', '11', 'aux', 'MD', 'may']
+
+11 :  ['be', '0', 'ROOT', 'VB', 'be']
+
+12 :  ['forward', '11', 'advmod', 'RB', 'forward']
+
+13 :  [',', '11', 'punct', ',', ',']
+
+14 :  ['but', '11', 'cc', 'CC', 'but']
+
+15 :  ['this', '16', 'nsubj', 'DT', 'this']
+
+16 :  ['occurred', '11', 'conj', 'VBD', 'occur']
+
+17 :  ['to', '18', 'case', 'TO', 'to']
+
+18 :  ['me', '16', 'nmod', 'PRP', 'I']
+
+19 :  ['.', '11', 'punct', '.', '.']
+
+Ellipsis at:  be
+
+{1: 0, 15: 0}
+
+After looking at noun subjects: 
+
+{1: 0}
+
+After disfavouring complement clauses: 
+
+{1: 0}
+
+After looking at auxiliaries: 
+
+{1: 0}
+
+After backtracking up dependency tree: 
+
+{1: 0}
+
+Disadvantaging backward gapping: 
+
+{1: 0}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['While', 'watching', 'her', 'sleep', 'like', 'a', 'baby', ',', 'it', 'may', 'be', 'WATCHING', 'forward', ',', 'but', 'this', 'occurred', 'to', 'me', '.']
+
+Found verb:  ['watching']
+
+=====
+
+
+
+=====
+So what are you gonna do?
+
+1 :  ['So', '5', 'advmod', 'RB', 'so']
+
+2 :  ['what', '5', 'dep', 'WP', 'what']
+
+3 :  ['are', '5', 'aux', 'VBP', 'be']
+
+4 :  ['you', '5', 'nsubj', 'PRP', 'you']
+
+5 :  ['gon', '0', 'ROOT', 'VBG', 'gon']
+
+6 :  ['na', '7', 'mark', 'TO', 'na']
+
+7 :  ['do', '5', 'xcomp', 'VB', 'do']
+
+8 :  ['?', '5', 'punct', '.', '?']
+
+Ellipsis at:  do
+
+{2: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{4: 2}
+
+After disfavouring complement clauses: 
+
+{4: -1}
+
+After looking at auxiliaries: 
+
+{4: -1}
+
+After backtracking up dependency tree: 
+
+{4: 0}
+
+Disadvantaging backward gapping: 
+
+{4: 0}
+
+Main verb:  4
+
+Elliptical VP:  [4]
+
+Output sentence:  ['So', 'what', 'are', 'you', 'gon', 'na', 'do', 'GON', '?']
+
+Found verb:  ['gon']
+
+=====
+
+
+
+=====
+Don't be a coward.
+
+1 :  ['Do', '5', 'aux', 'VBP', 'do']
+
+2 :  ["n't", '5', 'neg', 'RB', 'not']
+
+3 :  ['be', '5', 'cop', 'VB', 'be']
+
+4 :  ['a', '5', 'det', 'DT', 'a']
+
+5 :  ['coward', '0', 'ROOT', 'NN', 'coward']
+
+6 :  ['.', '5', 'punct', '.', '.']
+
+Ellipsis at:  Do
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 1}
+
+After backtracking up dependency tree: 
+
+{2: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Do', "n't", 'BE', 'be', 'a', 'coward', '.']
+
+Found verb:  ['be']
+
+=====
+
+
+
+=====
+But you know, she must have been an extraordinary girl.
+
+1 :  ['But', '11', 'cc', 'CC', 'but']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['know', '11', 'dep', 'VBP', 'know']
+
+4 :  [',', '11', 'punct', ',', ',']
+
+5 :  ['she', '11', 'nsubj', 'PRP', 'she']
+
+6 :  ['must', '11', 'aux', 'MD', 'must']
+
+7 :  ['have', '11', 'aux', 'VB', 'have']
+
+8 :  ['been', '11', 'cop', 'VBN', 'be']
+
+9 :  ['an', '11', 'det', 'DT', 'a']
+
+10 :  ['extraordinary', '11', 'amod', 'JJ', 'extraordinary']
+
+11 :  ['girl', '0', 'ROOT', 'NN', 'girl']
+
+12 :  ['.', '11', 'punct', '.', '.']
+
+Ellipsis at:  must
+
+{2: 0, 6: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{2: 0, 6: 0, 7: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0, 6: 0, 7: 0}
+
+After looking at auxiliaries: 
+
+{2: 0, 6: 0, 7: 1}
+
+After backtracking up dependency tree: 
+
+{2: 0, 6: 0, 7: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 0, 6: -1, 7: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['But', 'you', 'know', ',', 'she', 'must', 'KNOW', 'have', 'been', 'an', 'extraordinary', 'girl', '.']
+
+Ellipsis at:  have
+
+{2: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{2: 0, 7: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0, 7: 0}
+
+After looking at auxiliaries: 
+
+{2: 0, 7: 1}
+
+After backtracking up dependency tree: 
+
+{2: 0, 7: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 0, 7: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['But', 'you', 'know', ',', 'she', 'must', 'KNOW', 'have', 'KNOW', 'been', 'an', 'extraordinary', 'girl', '.']
+
+Found verb:  ['know']
+
+=====
+
+
+
+=====
+Can't I join us, can l?
+
+1 :  ['Ca', '4', 'aux', 'MD', 'can']
+
+2 :  ["n't", '4', 'neg', 'RB', 'not']
+
+3 :  ['I', '4', 'nsubj', 'PRP', 'I']
+
+4 :  ['join', '0', 'ROOT', 'VB', 'join']
+
+5 :  ['us', '4', 'dobj', 'PRP', 'we']
+
+6 :  [',', '4', 'punct', ',', ',']
+
+7 :  ['can', '8', 'aux', 'MD', 'can']
+
+8 :  ['l', '4', 'dep', 'NN', 'l']
+
+9 :  ['?', '4', 'punct', '.', '?']
+
+Ellipsis at:  can
+
+{3: 0}
+
+After looking at noun subjects: 
+
+{3: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0}
+
+After looking at auxiliaries: 
+
+{3: 1}
+
+After backtracking up dependency tree: 
+
+{3: 2}
+
+Disadvantaging backward gapping: 
+
+{3: 2}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['Ca', "n't", 'I', 'join', 'us', ',', 'can', 'JOIN', 'l', '?']
+
+Found verb:  ['join']
+
+=====
+
+
+
+=====
+Gyeon-woo's Father:(Smiling) Yes, I do.
+
+1 :  ['Gyeon-woo', '3', 'nmod:poss', 'NN', 'gyeon-woo']
+
+2 :  ["'s", '1', 'case', 'POS', "'s"]
+
+3 :  ['Father', '0', 'ROOT', 'NN', 'father']
+
+4 :  [':', '3', 'punct', ':', ':']
+
+5 :  ['-LRB-', '6', 'punct', '-LRB-', '-lrb-']
+
+6 :  ['Smiling', '11', 'dep', 'VBG', 'smile']
+
+7 :  ['-RRB-', '6', 'punct', '-RRB-', '-rrb-']
+
+8 :  ['Yes', '11', 'discourse', 'UH', 'yes']
+
+9 :  [',', '11', 'punct', ',', ',']
+
+10 :  ['I', '11', 'nsubj', 'PRP', 'I']
+
+11 :  ['do', '3', 'dep', 'VBP', 'do']
+
+12 :  ['.', '3', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{5: 0}
+
+After looking at noun subjects: 
+
+{5: 0}
+
+After disfavouring complement clauses: 
+
+{5: 0}
+
+After looking at auxiliaries: 
+
+{5: 0}
+
+After backtracking up dependency tree: 
+
+{5: 0}
+
+Disadvantaging backward gapping: 
+
+{5: 0}
+
+Main verb:  5
+
+Elliptical VP:  [5]
+
+Output sentence:  ['Gyeon-woo', "'s", 'Father', ':', '-LRB-', 'Smiling', '-RRB-', 'Yes', ',', 'I', 'do', 'SMILE', '.']
+
+Found verb:  ['Smiling']
+
+=====
+
+
+
+=====
+If I prepare nothing, she may murder me.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['I', '3', 'nsubj', 'PRP', 'I']
+
+3 :  ['prepare', '8', 'advcl', 'VBP', 'prepare']
+
+4 :  ['nothing', '3', 'dobj', 'NN', 'nothing']
+
+5 :  [',', '8', 'punct', ',', ',']
+
+6 :  ['she', '8', 'nsubj', 'PRP', 'she']
+
+7 :  ['may', '8', 'aux', 'MD', 'may']
+
+8 :  ['murder', '0', 'ROOT', 'NN', 'murder']
+
+9 :  ['me', '8', 'dobj', 'PRP', 'I']
+
+10 :  ['.', '8', 'punct', '.', '.']
+
+Ellipsis at:  may
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 0}
+
+Disadvantaging backward gapping: 
+
+{2: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['If', 'I', 'prepare', 'nothing', ',', 'she', 'may', 'PREPARE', 'murder', 'me', '.']
+
+Found verb:  ['prepare']
+
+=====
+
+
+
+=====
+You mean she could be my pussy?
+
+1 :  ['You', '2', 'nsubj', 'PRP', 'you']
+
+2 :  ['mean', '0', 'ROOT', 'VBP', 'mean']
+
+3 :  ['she', '7', 'nsubj', 'PRP', 'she']
+
+4 :  ['could', '7', 'aux', 'MD', 'could']
+
+5 :  ['be', '7', 'cop', 'VB', 'be']
+
+6 :  ['my', '7', 'nmod:poss', 'PRP$', 'my']
+
+7 :  ['pussy', '2', 'ccomp', 'NN', 'pussy']
+
+8 :  ['?', '2', 'punct', '.', '?']
+
+Ellipsis at:  could
+
+{1: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{1: 0, 4: 0}
+
+After disfavouring complement clauses: 
+
+{1: 0, 4: 0}
+
+After looking at auxiliaries: 
+
+{1: 0, 4: 1}
+
+After backtracking up dependency tree: 
+
+{1: 1, 4: 1}
+
+Disadvantaging backward gapping: 
+
+{1: 1, 4: 0}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['You', 'mean', 'she', 'could', 'MEAN', 'be', 'my', 'pussy', '?']
+
+Found verb:  ['mean']
+
+=====
+
+
+
+=====
+That's why don't be foolish.
+
+1 :  ['That', '2', 'nsubj', 'DT', 'that']
+
+2 :  ["'s", '0', 'ROOT', 'VBZ', 'be']
+
+3 :  ['why', '7', 'advmod', 'WRB', 'why']
+
+4 :  ['do', '7', 'aux', 'VBP', 'do']
+
+5 :  ["n't", '7', 'neg', 'RB', 'not']
+
+6 :  ['be', '7', 'cop', 'VB', 'be']
+
+7 :  ['foolish', '2', 'advcl', 'JJ', 'foolish']
+
+8 :  ['.', '2', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{1: 0, 5: 0}
+
+After looking at noun subjects: 
+
+{5: 0}
+
+After disfavouring complement clauses: 
+
+{5: 0}
+
+After looking at auxiliaries: 
+
+{5: 1}
+
+After backtracking up dependency tree: 
+
+{5: 1}
+
+Disadvantaging backward gapping: 
+
+{5: 0}
+
+Main verb:  5
+
+Elliptical VP:  [5]
+
+Output sentence:  ['That', "'s", 'why', 'do', "n't", 'BE', 'be', 'foolish', '.']
+
+Found verb:  ['be']
+
+=====
+
+
+
+=====
+What does 'can' mean?
+
+1 :  ['What', '4', 'nsubj', 'WP', 'what']
+
+2 :  ['does', '4', 'aux', 'VBZ', 'do']
+
+3 :  ['`', '4', 'punct', '``', '`']
+
+4 :  ['can', '0', 'ROOT', 'MD', 'can']
+
+5 :  ["'", '4', 'punct', "''", "'"]
+
+6 :  ['mean', '4', 'dep', 'VB', 'mean']
+
+7 :  ['?', '4', 'punct', '.', '?']
+
+Ellipsis at:  does
+
+{5: 0}
+
+After looking at noun subjects: 
+
+{5: 0}
+
+After disfavouring complement clauses: 
+
+{5: 0}
+
+After looking at auxiliaries: 
+
+{5: 0}
+
+After backtracking up dependency tree: 
+
+{5: 0}
+
+Disadvantaging backward gapping: 
+
+{5: -1}
+
+Main verb:  5
+
+Elliptical VP:  [5]
+
+Output sentence:  ['What', 'does', 'MEAN', '`', 'can', "'", 'mean', '?']
+
+Ellipsis at:  can
+
+{1: 0, 5: 0}
+
+After looking at noun subjects: 
+
+{1: 0, 5: 0}
+
+After disfavouring complement clauses: 
+
+{1: 0, 5: 0}
+
+After looking at auxiliaries: 
+
+{1: 0, 5: 0}
+
+After backtracking up dependency tree: 
+
+{1: 0, 5: 0}
+
+Disadvantaging backward gapping: 
+
+{1: 0, 5: -1}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['What', 'does', 'MEAN', '`', 'can', 'DO', "'", 'mean', '?']
+
+Found verb:  ['does']
+
+=====
+
+
+
+=====
+I think you didn't.
+
+1 :  ['I', '2', 'nsubj', 'PRP', 'I']
+
+2 :  ['think', '0', 'ROOT', 'VBP', 'think']
+
+3 :  ['you', '4', 'nsubj', 'PRP', 'you']
+
+4 :  ['did', '2', 'ccomp', 'VBD', 'do']
+
+5 :  ["n't", '4', 'neg', 'RB', 'not']
+
+6 :  ['.', '2', 'punct', '.', '.']
+
+Ellipsis at:  did
+
+{1: 0}
+
+After looking at noun subjects: 
+
+{1: 1}
+
+After disfavouring complement clauses: 
+
+{1: -2}
+
+After looking at auxiliaries: 
+
+{1: -2}
+
+After backtracking up dependency tree: 
+
+{1: -1}
+
+Disadvantaging backward gapping: 
+
+{1: -1}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['I', 'think', 'you', 'did', "n't", 'THINK', '.']
+
+Found verb:  ['think']
+
+=====
+
+
+
+=====
+If you do, I'll take her.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '7', 'advcl', 'VBP', 'do']
+
+4 :  [',', '7', 'punct', ',', ',']
+
+5 :  ['I', '7', 'nsubj', 'PRP', 'I']
+
+6 :  ["'ll", '7', 'aux', 'MD', 'will']
+
+7 :  ['take', '0', 'ROOT', 'VB', 'take']
+
+8 :  ['her', '7', 'dobj', 'PRP', 'she']
+
+9 :  ['.', '7', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{6: 0}
+
+After looking at noun subjects: 
+
+{6: 1}
+
+After disfavouring complement clauses: 
+
+{6: 1}
+
+After looking at auxiliaries: 
+
+{6: 1}
+
+After backtracking up dependency tree: 
+
+{6: 2}
+
+Disadvantaging backward gapping: 
+
+{6: 1}
+
+Main verb:  6
+
+Elliptical VP:  [6]
+
+Output sentence:  ['If', 'you', 'do', 'TAKE', ',', 'I', "'ll", 'take', 'her', '.']
+
+Found verb:  ['take']
+
+=====
+
+
+
+=====
+If you do, ask him to take you.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '5', 'advcl', 'VBP', 'do']
+
+4 :  [',', '5', 'punct', ',', ',']
+
+5 :  ['ask', '0', 'ROOT', 'VBP', 'ask']
+
+6 :  ['him', '5', 'dobj', 'PRP', 'he']
+
+7 :  ['to', '8', 'mark', 'TO', 'to']
+
+8 :  ['take', '5', 'xcomp', 'VB', 'take']
+
+9 :  ['you', '8', 'dobj', 'PRP', 'you']
+
+10 :  ['.', '5', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{4: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{4: 0, 7: 0}
+
+After disfavouring complement clauses: 
+
+{4: 0, 7: 0}
+
+After looking at auxiliaries: 
+
+{4: 0, 7: 0}
+
+After backtracking up dependency tree: 
+
+{4: 1, 7: 0}
+
+Disadvantaging backward gapping: 
+
+{4: 0, 7: -1}
+
+Main verb:  4
+
+Elliptical VP:  [4]
+
+Output sentence:  ['If', 'you', 'do', 'ASK', ',', 'ask', 'him', 'to', 'take', 'you', '.']
+
+Found verb:  ['ask']
+
+=====
+
+
+
+=====
+If you don't, I'll kill you!
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '8', 'advcl', 'VBP', 'do']
+
+4 :  ["n't", '3', 'neg', 'RB', 'not']
+
+5 :  [',', '8', 'punct', ',', ',']
+
+6 :  ['I', '8', 'nsubj', 'PRP', 'I']
+
+7 :  ["'ll", '8', 'aux', 'MD', 'will']
+
+8 :  ['kill', '0', 'ROOT', 'VB', 'kill']
+
+9 :  ['you', '8', 'dobj', 'PRP', 'you']
+
+10 :  ['!', '8', 'punct', '.', '!']
+
+Ellipsis at:  do
+
+{7: 0}
+
+After looking at noun subjects: 
+
+{7: 1}
+
+After disfavouring complement clauses: 
+
+{7: 1}
+
+After looking at auxiliaries: 
+
+{7: 1}
+
+After backtracking up dependency tree: 
+
+{7: 2}
+
+Disadvantaging backward gapping: 
+
+{7: 1}
+
+Main verb:  7
+
+Elliptical VP:  [7]
+
+Output sentence:  ['If', 'you', 'do', "n't", 'KILL', ',', 'I', "'ll", 'kill', 'you', '!']
+
+Found verb:  ['kill']
+
+=====
+
+
+
+=====
+I had my eyes closed.
+
+1 :  ['I', '2', 'nsubj', 'PRP', 'I']
+
+2 :  ['had', '0', 'ROOT', 'VBD', 'have']
+
+3 :  ['my', '4', 'nmod:poss', 'PRP$', 'my']
+
+4 :  ['eyes', '5', 'nsubj', 'NNS', 'eye']
+
+5 :  ['closed', '2', 'ccomp', 'VBD', 'close']
+
+6 :  ['.', '2', 'punct', '.', '.']
+
+Ellipsis at:  had
+
+{4: 0}
+
+After looking at noun subjects: 
+
+{4: 0}
+
+After disfavouring complement clauses: 
+
+{4: 0}
+
+After looking at auxiliaries: 
+
+{4: 0}
+
+After backtracking up dependency tree: 
+
+{4: 0}
+
+Disadvantaging backward gapping: 
+
+{4: -1}
+
+Main verb:  4
+
+Elliptical VP:  [4]
+
+Output sentence:  ['I', 'had', 'CLOSED', 'my', 'eyes', 'closed', '.']
+
+Found verb:  ['closed']
+
+=====
+
+
+
+=====
+If you don't, I'll kill you.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '8', 'advcl', 'VBP', 'do']
+
+4 :  ["n't", '3', 'neg', 'RB', 'not']
+
+5 :  [',', '8', 'punct', ',', ',']
+
+6 :  ['I', '8', 'nsubj', 'PRP', 'I']
+
+7 :  ["'ll", '8', 'aux', 'MD', 'will']
+
+8 :  ['kill', '0', 'ROOT', 'VB', 'kill']
+
+9 :  ['you', '8', 'dobj', 'PRP', 'you']
+
+10 :  ['.', '8', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{7: 0}
+
+After looking at noun subjects: 
+
+{7: 1}
+
+After disfavouring complement clauses: 
+
+{7: 1}
+
+After looking at auxiliaries: 
+
+{7: 1}
+
+After backtracking up dependency tree: 
+
+{7: 2}
+
+Disadvantaging backward gapping: 
+
+{7: 1}
+
+Main verb:  7
+
+Elliptical VP:  [7]
+
+Output sentence:  ['If', 'you', 'do', "n't", 'KILL', ',', 'I', "'ll", 'kill', 'you', '.']
+
+Found verb:  ['kill']
+
+=====
+
+
+
+=====
+What has gotten in to you?
+
+1 :  ['What', '3', 'nsubj', 'WDT', 'what']
+
+2 :  ['has', '3', 'dep', 'VBZ', 'have']
+
+3 :  ['gotten', '0', 'ROOT', 'VBN', 'get']
+
+4 :  ['in', '3', 'compound:prt', 'IN', 'in']
+
+5 :  ['to', '6', 'case', 'TO', 'to']
+
+6 :  ['you', '3', 'nmod', 'PRP', 'you']
+
+7 :  ['?', '3', 'punct', '.', '?']
+
+Ellipsis at:  has
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2, 3]
+
+Output sentence:  ['What', 'has', 'GOTTEN', 'IN', 'gotten', 'in', 'to', 'you', '?']
+
+Found verb:  ['gotten', 'in']
+
+=====
+
+
+
+=====
+The prettiest is when she's playing the piano.
+
+1 :  ['The', '2', 'det', 'DT', 'the']
+
+2 :  ['prettiest', '3', 'nsubj', 'JJS', 'prettiest']
+
+3 :  ['is', '0', 'ROOT', 'VBZ', 'be']
+
+4 :  ['when', '7', 'advmod', 'WRB', 'when']
+
+5 :  ['she', '7', 'nsubj', 'PRP', 'she']
+
+6 :  ["'s", '7', 'aux', 'VBZ', 'be']
+
+7 :  ['playing', '3', 'advcl', 'VBG', 'play']
+
+8 :  ['the', '9', 'det', 'DT', 'the']
+
+9 :  ['piano', '7', 'dobj', 'NN', 'piano']
+
+10 :  ['.', '3', 'punct', '.', '.']
+
+Ellipsis at:  is
+
+{5: 0, 6: 0}
+
+After looking at noun subjects: 
+
+{6: 0}
+
+After disfavouring complement clauses: 
+
+{6: 0}
+
+After looking at auxiliaries: 
+
+{6: 0}
+
+After backtracking up dependency tree: 
+
+{6: 0}
+
+Disadvantaging backward gapping: 
+
+{6: -1}
+
+Main verb:  6
+
+Elliptical VP:  [6]
+
+Output sentence:  ['The', 'prettiest', 'is', 'PLAYING', 'when', 'she', "'s", 'playing', 'the', 'piano', '.']
+
+Found verb:  ['playing']
+
+=====
+
+
+
+=====
+What are we supposed to do if caught by teacher.
+
+1 :  ['What', '4', 'dep', 'WP', 'what']
+
+2 :  ['are', '4', 'auxpass', 'VBP', 'be']
+
+3 :  ['we', '4', 'nsubjpass', 'PRP', 'we']
+
+4 :  ['supposed', '0', 'ROOT', 'VBN', 'suppose']
+
+5 :  ['to', '6', 'mark', 'TO', 'to']
+
+6 :  ['do', '4', 'xcomp', 'VB', 'do']
+
+7 :  ['if', '8', 'mark', 'IN', 'if']
+
+8 :  ['caught', '6', 'advcl', 'VBN', 'catch']
+
+9 :  ['by', '10', 'case', 'IN', 'by']
+
+10 :  ['teacher', '8', 'nmod', 'NN', 'teacher']
+
+11 :  ['.', '4', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{1: 0, 3: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{3: 2, 7: 0}
+
+After disfavouring complement clauses: 
+
+{3: -1, 7: 0}
+
+After looking at auxiliaries: 
+
+{3: -1, 7: 0}
+
+After backtracking up dependency tree: 
+
+{3: 0, 7: 0}
+
+Disadvantaging backward gapping: 
+
+{3: 0, 7: -1}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['What', 'are', 'we', 'supposed', 'to', 'do', 'SUPPOSE', 'if', 'caught', 'by', 'teacher', '.']
+
+Found verb:  ['supposed']
+
+=====
+
+
+
+=====
+Can I see what's in your pocket?
+
+1 :  ['Can', '0', 'ROOT', 'MD', 'can']
+
+2 :  ['I', '1', 'dep', 'PRP', 'I']
+
+3 :  ['see', '8', 'dep', 'VB', 'see']
+
+4 :  ['what', '8', 'nsubj', 'WP', 'what']
+
+5 :  ["'s", '8', 'cop', 'VBZ', 'be']
+
+6 :  ['in', '8', 'case', 'IN', 'in']
+
+7 :  ['your', '8', 'nmod:poss', 'PRP$', 'you']
+
+8 :  ['pocket', '1', 'dep', 'NN', 'pocket']
+
+9 :  ['?', '1', 'punct', '.', '?']
+
+Ellipsis at:  Can
+
+{2: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 0}
+
+Disadvantaging backward gapping: 
+
+{2: -1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Can', 'SEE', 'I', 'see', 'what', "'s", 'in', 'your', 'pocket', '?']
+
+Found verb:  ['see']
+
+=====
+
+
+
+=====
+Doesn't look bad guy, does he?
+
+1 :  ['Does', '3', 'aux', 'VBZ', 'do']
+
+2 :  ["n't", '3', 'neg', 'RB', 'not']
+
+3 :  ['look', '7', 'dep', 'VB', 'look']
+
+4 :  ['bad', '5', 'amod', 'JJ', 'bad']
+
+5 :  ['guy', '3', 'dobj', 'NN', 'guy']
+
+6 :  [',', '7', 'punct', ',', ',']
+
+7 :  ['does', '0', 'ROOT', 'VBZ', 'do']
+
+8 :  ['he', '7', 'nsubj', 'PRP', 'he']
+
+9 :  ['?', '7', 'punct', '.', '?']
+
+Ellipsis at:  does
+
+{0: 0, 2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 1}
+
+After backtracking up dependency tree: 
+
+{2: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Does', "n't", 'look', 'bad', 'guy', ',', 'does', 'LOOK', 'he', '?']
+
+Found verb:  ['look']
+
+=====
+
+
+
+=====
+If it hurts, act like it doesn't.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['it', '3', 'nsubj', 'PRP', 'it']
+
+3 :  ['hurts', '5', 'advcl', 'VBZ', 'hurt']
+
+4 :  [',', '5', 'punct', ',', ',']
+
+5 :  ['act', '0', 'ROOT', 'VBP', 'act']
+
+6 :  ['like', '8', 'mark', 'IN', 'like']
+
+7 :  ['it', '8', 'nsubj', 'PRP', 'it']
+
+8 :  ['does', '5', 'advcl', 'VBZ', 'do']
+
+9 :  ["n't", '8', 'neg', 'RB', 'not']
+
+10 :  ['.', '5', 'punct', '.', '.']
+
+Ellipsis at:  does
+
+{2: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{2: 2, 4: 0}
+
+After disfavouring complement clauses: 
+
+{2: 2, 4: 0}
+
+After looking at auxiliaries: 
+
+{2: 2, 4: 0}
+
+After backtracking up dependency tree: 
+
+{2: 2, 4: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 2, 4: 1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['If', 'it', 'hurts', ',', 'act', 'like', 'it', 'does', "n't", 'HURT', '.']
+
+Found verb:  ['hurts']
+
+=====
+
+
+
+=====
+Gyeon-woo:(Monolog) Sometimes I feel like I know her and sometimes I don't.
+
+1 :  ['Gyeon-woo', '0', 'ROOT', 'NN', 'gyeon-woo']
+
+2 :  [':', '1', 'punct', ':', ':']
+
+3 :  ['-LRB-', '4', 'punct', '-LRB-', '-lrb-']
+
+4 :  ['Monolog', '8', 'dep', 'NNP', 'Monolog']
+
+5 :  ['-RRB-', '4', 'punct', '-RRB-', '-rrb-']
+
+6 :  ['Sometimes', '8', 'advmod', 'RB', 'sometimes']
+
+7 :  ['I', '8', 'nsubj', 'PRP', 'I']
+
+8 :  ['feel', '1', 'appos', 'VBP', 'feel']
+
+9 :  ['like', '11', 'mark', 'IN', 'like']
+
+10 :  ['I', '11', 'nsubj', 'PRP', 'I']
+
+11 :  ['know', '8', 'advcl', 'VBP', 'know']
+
+12 :  ['her', '11', 'dobj', 'PRP', 'she']
+
+13 :  ['and', '8', 'cc', 'CC', 'and']
+
+14 :  ['sometimes', '16', 'advmod', 'RB', 'sometimes']
+
+15 :  ['I', '16', 'nsubj', 'PRP', 'I']
+
+16 :  ['do', '8', 'ccomp', 'VBP', 'do']
+
+17 :  ["n't", '16', 'neg', 'RB', 'not']
+
+18 :  ['.', '1', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{7: 0, 10: 0}
+
+After looking at noun subjects: 
+
+{7: 2, 10: 2}
+
+After disfavouring complement clauses: 
+
+{7: -1, 10: 2}
+
+After looking at auxiliaries: 
+
+{7: -1, 10: 2}
+
+After backtracking up dependency tree: 
+
+{7: 0, 10: 2}
+
+Disadvantaging backward gapping: 
+
+{7: 0, 10: 2}
+
+Main verb:  10
+
+Elliptical VP:  [10]
+
+Output sentence:  ['Gyeon-woo', ':', '-LRB-', 'Monolog', '-RRB-', 'Sometimes', 'I', 'feel', 'like', 'I', 'know', 'her', 'and', 'sometimes', 'I', 'do', "n't", 'KNOW', '.']
+
+Found verb:  ['know']
+
+=====
+
+
+
+=====
+Gyeon-woo:(Monolog) Why does the ball I hit keep hitting my face?
+
+1 :  ['Gyeon-woo', '0', 'ROOT', 'NN', 'gyeon-woo']
+
+2 :  [':', '1', 'punct', ':', ':']
+
+3 :  ['-LRB-', '4', 'punct', '-LRB-', '-lrb-']
+
+4 :  ['Monolog', '1', 'appos', 'NNP', 'Monolog']
+
+5 :  ['-RRB-', '4', 'punct', '-RRB-', '-rrb-']
+
+6 :  ['Why', '7', 'advmod', 'WRB', 'why']
+
+7 :  ['does', '1', 'dep', 'VBZ', 'do']
+
+8 :  ['the', '9', 'det', 'DT', 'the']
+
+9 :  ['ball', '7', 'nsubj', 'NN', 'ball']
+
+10 :  ['I', '11', 'nsubj', 'PRP', 'I']
+
+11 :  ['hit', '7', 'dep', 'VBD', 'hit']
+
+12 :  ['keep', '11', 'xcomp', 'VB', 'keep']
+
+13 :  ['hitting', '12', 'xcomp', 'VBG', 'hit']
+
+14 :  ['my', '15', 'nmod:poss', 'PRP$', 'my']
+
+15 :  ['face', '13', 'dobj', 'NN', 'face']
+
+16 :  ['?', '1', 'punct', '.', '?']
+
+Ellipsis at:  does
+
+{10: 0, 11: 0, 12: 0}
+
+After looking at noun subjects: 
+
+{10: 1, 11: 1, 12: 1}
+
+After disfavouring complement clauses: 
+
+{10: 1, 11: 1, 12: 1}
+
+After looking at auxiliaries: 
+
+{10: 1, 11: 1, 12: 1}
+
+After backtracking up dependency tree: 
+
+{10: 1, 11: 1, 12: 1}
+
+Disadvantaging backward gapping: 
+
+{10: 0, 11: 0, 12: 0}
+
+Main verb:  12
+
+Elliptical VP:  [12]
+
+Output sentence:  ['Gyeon-woo', ':', '-LRB-', 'Monolog', '-RRB-', 'Why', 'does', 'HIT', 'the', 'ball', 'I', 'hit', 'keep', 'hitting', 'my', 'face', '?']
+
+Found verb:  ['hitting']
+
+=====
+
+
+
+=====
+She wanted to introduce a nice man to me, but I couldn't.
+
+1 :  ['She', '2', 'nsubj', 'PRP', 'she']
+
+2 :  ['wanted', '0', 'ROOT', 'VBD', 'want']
+
+3 :  ['to', '4', 'mark', 'TO', 'to']
+
+4 :  ['introduce', '2', 'xcomp', 'VB', 'introduce']
+
+5 :  ['a', '7', 'det', 'DT', 'a']
+
+6 :  ['nice', '7', 'amod', 'JJ', 'nice']
+
+7 :  ['man', '4', 'dobj', 'NN', 'man']
+
+8 :  ['to', '9', 'case', 'TO', 'to']
+
+9 :  ['me', '4', 'nmod', 'PRP', 'I']
+
+10 :  [',', '2', 'punct', ',', ',']
+
+11 :  ['but', '2', 'cc', 'CC', 'but']
+
+12 :  ['I', '13', 'nsubj', 'PRP', 'I']
+
+13 :  ['could', '2', 'conj', 'MD', 'could']
+
+14 :  ["n't", '13', 'neg', 'RB', 'not']
+
+15 :  ['.', '2', 'punct', '.', '.']
+
+Ellipsis at:  could
+
+{1: 0, 3: 0}
+
+After looking at noun subjects: 
+
+{1: 1, 3: 1}
+
+After disfavouring complement clauses: 
+
+{1: 1, 3: 1}
+
+After looking at auxiliaries: 
+
+{1: 1, 3: 1}
+
+After backtracking up dependency tree: 
+
+{1: 2, 3: 1}
+
+Disadvantaging backward gapping: 
+
+{1: 2, 3: 1}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['She', 'wanted', 'to', 'introduce', 'a', 'nice', 'man', 'to', 'me', ',', 'but', 'I', 'could', "n't", 'WANT', '.']
+
+Found verb:  ['wanted']
+
+=====
+
+
+
+=====
+Does this tree look the same as before?
+
+1 :  ['Does', '0', 'ROOT', 'VBZ', 'do']
+
+2 :  ['this', '3', 'det', 'DT', 'this']
+
+3 :  ['tree', '1', 'nsubj', 'NN', 'tree']
+
+4 :  ['look', '1', 'dep', 'VB', 'look']
+
+5 :  ['the', '6', 'det', 'DT', 'the']
+
+6 :  ['same', '4', 'dobj', 'JJ', 'same']
+
+7 :  ['as', '4', 'advcl', 'IN', 'as']
+
+8 :  ['before', '7', 'dep', 'IN', 'before']
+
+9 :  ['?', '1', 'punct', '.', '?']
+
+Ellipsis at:  Does
+
+{3: 0}
+
+After looking at noun subjects: 
+
+{3: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0}
+
+After looking at auxiliaries: 
+
+{3: 0}
+
+After backtracking up dependency tree: 
+
+{3: 0}
+
+Disadvantaging backward gapping: 
+
+{3: -1}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['Does', 'LOOK', 'this', 'tree', 'look', 'the', 'same', 'as', 'before', '?']
+
+Found verb:  ['look']
+
+=====
+
+
+
+=====
+I did, but not to see auntie!
+
+1 :  ['I', '2', 'nsubj', 'PRP', 'I']
+
+2 :  ['did', '0', 'ROOT', 'VBD', 'do']
+
+3 :  [',', '2', 'punct', ',', ',']
+
+4 :  ['but', '2', 'cc', 'CC', 'but']
+
+5 :  ['not', '7', 'neg', 'RB', 'not']
+
+6 :  ['to', '7', 'mark', 'TO', 'to']
+
+7 :  ['see', '2', 'conj', 'VB', 'see']
+
+8 :  ['auntie', '7', 'dobj', 'NN', 'auntie']
+
+9 :  ['!', '2', 'punct', '.', '!']
+
+Ellipsis at:  did
+
+{6: 0}
+
+After looking at noun subjects: 
+
+{6: 2}
+
+After disfavouring complement clauses: 
+
+{6: 2}
+
+After looking at auxiliaries: 
+
+{6: 2}
+
+After backtracking up dependency tree: 
+
+{6: 2}
+
+Disadvantaging backward gapping: 
+
+{6: 1}
+
+Main verb:  6
+
+Elliptical VP:  [6]
+
+Output sentence:  ['I', 'did', 'SEE', ',', 'but', 'not', 'to', 'see', 'auntie', '!']
+
+Found verb:  ['see']
+
+=====
+
+
+
+=====
+Would you believe that, too?
+
+1 :  ['Would', '0', 'ROOT', 'MD', 'would']
+
+2 :  ['you', '1', 'dep', 'PRP', 'you']
+
+3 :  ['believe', '4', 'dep', 'VB', 'believe']
+
+4 :  ['that', '1', 'dep', 'IN', 'that']
+
+5 :  [',', '4', 'punct', ',', ',']
+
+6 :  ['too', '4', 'advmod', 'RB', 'too']
+
+7 :  ['?', '1', 'punct', '.', '?']
+
+Ellipsis at:  Would
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 0}
+
+Disadvantaging backward gapping: 
+
+{2: -1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Would', 'BELIEVE', 'you', 'believe', 'that', ',', 'too', '?']
+
+Found verb:  ['believe']
+
+=====
+
+
+
+=====
+Then are you hitting on me?
+
+1 :  ['Then', '2', 'advmod', 'RB', 'then']
+
+2 :  ['are', '0', 'ROOT', 'VBP', 'be']
+
+3 :  ['you', '2', 'nsubj', 'PRP', 'you']
+
+4 :  ['hitting', '3', 'acl', 'VBG', 'hit']
+
+5 :  ['on', '6', 'case', 'IN', 'on']
+
+6 :  ['me', '4', 'nmod', 'PRP', 'I']
+
+7 :  ['?', '2', 'punct', '.', '?']
+
+Ellipsis at:  are
+
+{3: 0}
+
+After looking at noun subjects: 
+
+{3: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0}
+
+After looking at auxiliaries: 
+
+{3: 0}
+
+After backtracking up dependency tree: 
+
+{3: 0}
+
+Disadvantaging backward gapping: 
+
+{3: -1}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['Then', 'are', 'HITTING', 'you', 'hitting', 'on', 'me', '?']
+
+Found verb:  ['hitting']
+
+=====
+
+
+
+=====
+While watching her sleep like a baby, it may be forward, but this occurred to me.
+
+1 :  ['While', '2', 'mark', 'IN', 'while']
+
+2 :  ['watching', '11', 'advcl', 'VBG', 'watch']
+
+3 :  ['her', '4', 'nmod:poss', 'PRP$', 'she']
+
+4 :  ['sleep', '2', 'dobj', 'NN', 'sleep']
+
+5 :  ['like', '7', 'case', 'IN', 'like']
+
+6 :  ['a', '7', 'det', 'DT', 'a']
+
+7 :  ['baby', '2', 'nmod', 'NN', 'baby']
+
+8 :  [',', '11', 'punct', ',', ',']
+
+9 :  ['it', '11', 'nsubj', 'PRP', 'it']
+
+10 :  ['may', '11', 'aux', 'MD', 'may']
+
+11 :  ['be', '0', 'ROOT', 'VB', 'be']
+
+12 :  ['forward', '11', 'advmod', 'RB', 'forward']
+
+13 :  [',', '11', 'punct', ',', ',']
+
+14 :  ['but', '11', 'cc', 'CC', 'but']
+
+15 :  ['this', '16', 'nsubj', 'DT', 'this']
+
+16 :  ['occurred', '11', 'conj', 'VBD', 'occur']
+
+17 :  ['to', '18', 'case', 'TO', 'to']
+
+18 :  ['me', '16', 'nmod', 'PRP', 'I']
+
+19 :  ['.', '11', 'punct', '.', '.']
+
+Ellipsis at:  be
+
+{1: 0, 15: 0}
+
+After looking at noun subjects: 
+
+{1: 0}
+
+After disfavouring complement clauses: 
+
+{1: 0}
+
+After looking at auxiliaries: 
+
+{1: 0}
+
+After backtracking up dependency tree: 
+
+{1: 0}
+
+Disadvantaging backward gapping: 
+
+{1: 0}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['While', 'watching', 'her', 'sleep', 'like', 'a', 'baby', ',', 'it', 'may', 'be', 'WATCHING', 'forward', ',', 'but', 'this', 'occurred', 'to', 'me', '.']
+
+Found verb:  ['watching']
+
+=====
+
+
+
+=====
+So what are you gonna do?
+
+1 :  ['So', '5', 'advmod', 'RB', 'so']
+
+2 :  ['what', '5', 'dep', 'WP', 'what']
+
+3 :  ['are', '5', 'aux', 'VBP', 'be']
+
+4 :  ['you', '5', 'nsubj', 'PRP', 'you']
+
+5 :  ['gon', '0', 'ROOT', 'VBG', 'gon']
+
+6 :  ['na', '7', 'mark', 'TO', 'na']
+
+7 :  ['do', '5', 'xcomp', 'VB', 'do']
+
+8 :  ['?', '5', 'punct', '.', '?']
+
+Ellipsis at:  do
+
+{2: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{4: 2}
+
+After disfavouring complement clauses: 
+
+{4: -1}
+
+After looking at auxiliaries: 
+
+{4: -1}
+
+After backtracking up dependency tree: 
+
+{4: 0}
+
+Disadvantaging backward gapping: 
+
+{4: 0}
+
+Main verb:  4
+
+Elliptical VP:  [4]
+
+Output sentence:  ['So', 'what', 'are', 'you', 'gon', 'na', 'do', 'GON', '?']
+
+Found verb:  ['gon']
+
+=====
+
+
+
+=====
+Don't be a coward.
+
+1 :  ['Do', '5', 'aux', 'VBP', 'do']
+
+2 :  ["n't", '5', 'neg', 'RB', 'not']
+
+3 :  ['be', '5', 'cop', 'VB', 'be']
+
+4 :  ['a', '5', 'det', 'DT', 'a']
+
+5 :  ['coward', '0', 'ROOT', 'NN', 'coward']
+
+6 :  ['.', '5', 'punct', '.', '.']
+
+Ellipsis at:  Do
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 1}
+
+After backtracking up dependency tree: 
+
+{2: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Do', "n't", 'BE', 'be', 'a', 'coward', '.']
+
+Found verb:  ['be']
+
+=====
+
+
+
+=====
+But you know, she must have been an extraordinary girl.
+
+1 :  ['But', '11', 'cc', 'CC', 'but']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['know', '11', 'dep', 'VBP', 'know']
+
+4 :  [',', '11', 'punct', ',', ',']
+
+5 :  ['she', '11', 'nsubj', 'PRP', 'she']
+
+6 :  ['must', '11', 'aux', 'MD', 'must']
+
+7 :  ['have', '11', 'aux', 'VB', 'have']
+
+8 :  ['been', '11', 'cop', 'VBN', 'be']
+
+9 :  ['an', '11', 'det', 'DT', 'a']
+
+10 :  ['extraordinary', '11', 'amod', 'JJ', 'extraordinary']
+
+11 :  ['girl', '0', 'ROOT', 'NN', 'girl']
+
+12 :  ['.', '11', 'punct', '.', '.']
+
+Ellipsis at:  must
+
+{2: 0, 6: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{2: 0, 6: 0, 7: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0, 6: 0, 7: 0}
+
+After looking at auxiliaries: 
+
+{2: 0, 6: 0, 7: 1}
+
+After backtracking up dependency tree: 
+
+{2: 0, 6: 0, 7: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 0, 6: -1, 7: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['But', 'you', 'know', ',', 'she', 'must', 'KNOW', 'have', 'been', 'an', 'extraordinary', 'girl', '.']
+
+Ellipsis at:  have
+
+{2: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{2: 0, 7: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0, 7: 0}
+
+After looking at auxiliaries: 
+
+{2: 0, 7: 1}
+
+After backtracking up dependency tree: 
+
+{2: 0, 7: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 0, 7: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['But', 'you', 'know', ',', 'she', 'must', 'KNOW', 'have', 'KNOW', 'been', 'an', 'extraordinary', 'girl', '.']
+
+Found verb:  ['know']
+
+=====
+
+
+
+=====
+Can't I join us, can I?
+
+1 :  ['Ca', '4', 'aux', 'MD', 'can']
+
+2 :  ["n't", '4', 'neg', 'RB', 'not']
+
+3 :  ['I', '4', 'nsubj', 'PRP', 'I']
+
+4 :  ['join', '0', 'ROOT', 'VB', 'join']
+
+5 :  ['us', '4', 'dobj', 'PRP', 'we']
+
+6 :  [',', '4', 'punct', ',', ',']
+
+7 :  ['can', '4', 'dep', 'MD', 'can']
+
+8 :  ['I', '7', 'dep', 'PRP', 'I']
+
+9 :  ['?', '4', 'punct', '.', '?']
+
+Ellipsis at:  can
+
+{3: 0}
+
+After looking at noun subjects: 
+
+{3: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0}
+
+After looking at auxiliaries: 
+
+{3: 1}
+
+After backtracking up dependency tree: 
+
+{3: 2}
+
+Disadvantaging backward gapping: 
+
+{3: 2}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['Ca', "n't", 'I', 'join', 'us', ',', 'can', 'JOIN', 'I', '?']
+
+Found verb:  ['join']
+
+=====
+
+
+
+=====
+If I prepare nothing, she may murder me.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['I', '3', 'nsubj', 'PRP', 'I']
+
+3 :  ['prepare', '8', 'advcl', 'VBP', 'prepare']
+
+4 :  ['nothing', '3', 'dobj', 'NN', 'nothing']
+
+5 :  [',', '8', 'punct', ',', ',']
+
+6 :  ['she', '8', 'nsubj', 'PRP', 'she']
+
+7 :  ['may', '8', 'aux', 'MD', 'may']
+
+8 :  ['murder', '0', 'ROOT', 'NN', 'murder']
+
+9 :  ['me', '8', 'dobj', 'PRP', 'I']
+
+10 :  ['.', '8', 'punct', '.', '.']
+
+Ellipsis at:  may
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 0}
+
+Disadvantaging backward gapping: 
+
+{2: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['If', 'I', 'prepare', 'nothing', ',', 'she', 'may', 'PREPARE', 'murder', 'me', '.']
+
+Found verb:  ['prepare']
+
+=====
+
+
+
+=====
+You mean she could be my pussy?
+
+1 :  ['You', '2', 'nsubj', 'PRP', 'you']
+
+2 :  ['mean', '0', 'ROOT', 'VBP', 'mean']
+
+3 :  ['she', '7', 'nsubj', 'PRP', 'she']
+
+4 :  ['could', '7', 'aux', 'MD', 'could']
+
+5 :  ['be', '7', 'cop', 'VB', 'be']
+
+6 :  ['my', '7', 'nmod:poss', 'PRP$', 'my']
+
+7 :  ['pussy', '2', 'ccomp', 'NN', 'pussy']
+
+8 :  ['?', '2', 'punct', '.', '?']
+
+Ellipsis at:  could
+
+{1: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{1: 0, 4: 0}
+
+After disfavouring complement clauses: 
+
+{1: 0, 4: 0}
+
+After looking at auxiliaries: 
+
+{1: 0, 4: 1}
+
+After backtracking up dependency tree: 
+
+{1: 1, 4: 1}
+
+Disadvantaging backward gapping: 
+
+{1: 1, 4: 0}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['You', 'mean', 'she', 'could', 'MEAN', 'be', 'my', 'pussy', '?']
+
+Found verb:  ['mean']
+
+=====
+
+
+
+=====
+That's why don't be foolish. /Why am I foolish?
+
+1 :  ['That', '2', 'nsubj', 'DT', 'that']
+
+2 :  ["'s", '0', 'ROOT', 'VBZ', 'be']
+
+3 :  ['why', '7', 'advmod', 'WRB', 'why']
+
+4 :  ['do', '7', 'aux', 'VBP', 'do']
+
+5 :  ["n't", '7', 'neg', 'RB', 'not']
+
+6 :  ['be', '7', 'cop', 'VB', 'be']
+
+7 :  ['foolish', '2', 'advcl', 'JJ', 'foolish']
+
+8 :  ['.', '2', 'punct', '.', '.']
+
+9 :  ['/', '5', 'punct', ':', '/']
+
+10 :  ['Why', '5', 'advmod', 'WRB', 'why']
+
+11 :  ['am', '5', 'aux', 'VBP', 'be']
+
+12 :  ['I', '5', 'nsubj', 'PRP', 'I']
+
+13 :  ['foolish', '0', 'ROOT', 'JJ', 'foolish']
+
+14 :  ['?', '5', 'punct', '.', '?']
+
+Ellipsis at:  do
+
+{1: 0, 5: 0, 10: 0}
+
+After looking at noun subjects: 
+
+{5: 0}
+
+After disfavouring complement clauses: 
+
+{5: 0}
+
+After looking at auxiliaries: 
+
+{5: 1}
+
+After backtracking up dependency tree: 
+
+{5: 1}
+
+Disadvantaging backward gapping: 
+
+{5: 0}
+
+Main verb:  5
+
+Elliptical VP:  [5]
+
+Output sentence:  ['That', "'s", 'why', 'do', "n't", 'BE', 'be', 'foolish', '.', '/', 'Why', 'am', 'I', 'foolish', '?']
+
+Found verb:  ['be']
+
+=====
+
+
+
+=====
+What does 'can' mean?
+
+1 :  ['What', '4', 'nsubj', 'WP', 'what']
+
+2 :  ['does', '4', 'aux', 'VBZ', 'do']
+
+3 :  ['`', '4', 'punct', '``', '`']
+
+4 :  ['can', '0', 'ROOT', 'MD', 'can']
+
+5 :  ["'", '4', 'punct', "''", "'"]
+
+6 :  ['mean', '4', 'dep', 'VB', 'mean']
+
+7 :  ['?', '4', 'punct', '.', '?']
+
+Ellipsis at:  does
+
+{5: 0}
+
+After looking at noun subjects: 
+
+{5: 0}
+
+After disfavouring complement clauses: 
+
+{5: 0}
+
+After looking at auxiliaries: 
+
+{5: 0}
+
+After backtracking up dependency tree: 
+
+{5: 0}
+
+Disadvantaging backward gapping: 
+
+{5: -1}
+
+Main verb:  5
+
+Elliptical VP:  [5]
+
+Output sentence:  ['What', 'does', 'MEAN', '`', 'can', "'", 'mean', '?']
+
+Ellipsis at:  can
+
+{1: 0, 5: 0}
+
+After looking at noun subjects: 
+
+{1: 0, 5: 0}
+
+After disfavouring complement clauses: 
+
+{1: 0, 5: 0}
+
+After looking at auxiliaries: 
+
+{1: 0, 5: 0}
+
+After backtracking up dependency tree: 
+
+{1: 0, 5: 0}
+
+Disadvantaging backward gapping: 
+
+{1: 0, 5: -1}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['What', 'does', 'MEAN', '`', 'can', 'DO', "'", 'mean', '?']
+
+Found verb:  ['does']
+
+=====
+
+
+
+=====
+I think you didn't.
+
+1 :  ['I', '2', 'nsubj', 'PRP', 'I']
+
+2 :  ['think', '0', 'ROOT', 'VBP', 'think']
+
+3 :  ['you', '4', 'nsubj', 'PRP', 'you']
+
+4 :  ['did', '2', 'ccomp', 'VBD', 'do']
+
+5 :  ["n't", '4', 'neg', 'RB', 'not']
+
+6 :  ['.', '2', 'punct', '.', '.']
+
+Ellipsis at:  did
+
+{1: 0}
+
+After looking at noun subjects: 
+
+{1: 1}
+
+After disfavouring complement clauses: 
+
+{1: -2}
+
+After looking at auxiliaries: 
+
+{1: -2}
+
+After backtracking up dependency tree: 
+
+{1: -1}
+
+Disadvantaging backward gapping: 
+
+{1: -1}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['I', 'think', 'you', 'did', "n't", 'THINK', '.']
+
+Found verb:  ['think']
+
+=====
+
+
+
+=====
+If you do, I'll take her.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '7', 'advcl', 'VBP', 'do']
+
+4 :  [',', '7', 'punct', ',', ',']
+
+5 :  ['I', '7', 'nsubj', 'PRP', 'I']
+
+6 :  ["'ll", '7', 'aux', 'MD', 'will']
+
+7 :  ['take', '0', 'ROOT', 'VB', 'take']
+
+8 :  ['her', '7', 'dobj', 'PRP', 'she']
+
+9 :  ['.', '7', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{6: 0}
+
+After looking at noun subjects: 
+
+{6: 1}
+
+After disfavouring complement clauses: 
+
+{6: 1}
+
+After looking at auxiliaries: 
+
+{6: 1}
+
+After backtracking up dependency tree: 
+
+{6: 2}
+
+Disadvantaging backward gapping: 
+
+{6: 1}
+
+Main verb:  6
+
+Elliptical VP:  [6]
+
+Output sentence:  ['If', 'you', 'do', 'TAKE', ',', 'I', "'ll", 'take', 'her', '.']
+
+Found verb:  ['take']
+
+=====
+
+
+
+=====
+I like her that way. /What would you like?
+
+1 :  ['I', '2', 'nsubj', 'PRP', 'I']
+
+2 :  ['like', '0', 'ROOT', 'VBP', 'like']
+
+3 :  ['her', '5', 'nmod:poss', 'PRP$', 'she']
+
+4 :  ['that', '5', 'det', 'DT', 'that']
+
+5 :  ['way', '2', 'dobj', 'NN', 'way']
+
+6 :  ['.', '2', 'punct', '.', '.']
+
+7 :  ['/', '5', 'punct', ':', '/']
+
+8 :  ['What', '5', 'dobj', 'WP', 'what']
+
+9 :  ['would', '5', 'aux', 'MD', 'would']
+
+10 :  ['you', '5', 'nsubj', 'PRP', 'you']
+
+11 :  ['like', '0', 'ROOT', 'VB', 'like']
+
+12 :  ['?', '5', 'punct', '.', '?']
+
+Ellipsis at:  would
+
+{1: 0, 10: 0}
+
+After looking at noun subjects: 
+
+{1: 0, 10: 0}
+
+After disfavouring complement clauses: 
+
+{1: 0, 10: 0}
+
+After looking at auxiliaries: 
+
+{1: 0, 10: 0}
+
+After backtracking up dependency tree: 
+
+{1: 1, 10: 0}
+
+Disadvantaging backward gapping: 
+
+{1: 1, 10: -1}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['I', 'like', 'her', 'that', 'way', '.', '/', 'What', 'would', 'LIKE', 'you', 'like', '?']
+
+Found verb:  ['like']
+
+=====
+
+
+
+=====
+If you do, ask him to take you.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '5', 'advcl', 'VBP', 'do']
+
+4 :  [',', '5', 'punct', ',', ',']
+
+5 :  ['ask', '0', 'ROOT', 'VBP', 'ask']
+
+6 :  ['him', '5', 'dobj', 'PRP', 'he']
+
+7 :  ['to', '8', 'mark', 'TO', 'to']
+
+8 :  ['take', '5', 'xcomp', 'VB', 'take']
+
+9 :  ['you', '8', 'dobj', 'PRP', 'you']
+
+10 :  ['.', '5', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{4: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{4: 0, 7: 0}
+
+After disfavouring complement clauses: 
+
+{4: 0, 7: 0}
+
+After looking at auxiliaries: 
+
+{4: 0, 7: 0}
+
+After backtracking up dependency tree: 
+
+{4: 1, 7: 0}
+
+Disadvantaging backward gapping: 
+
+{4: 0, 7: -1}
+
+Main verb:  4
+
+Elliptical VP:  [4]
+
+Output sentence:  ['If', 'you', 'do', 'ASK', ',', 'ask', 'him', 'to', 'take', 'you', '.']
+
+Found verb:  ['ask']
+
+=====
+
+
+
+=====
+If you don't, I'II kill you!
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '9', 'advcl', 'VBP', 'do']
+
+4 :  ["n't", '3', 'neg', 'RB', 'not']
+
+5 :  [',', '9', 'punct', ',', ',']
+
+6 :  ['I', '9', 'dep', 'PRP', 'I']
+
+7 :  ['`', '9', 'punct', '``', '`']
+
+8 :  ['II', '9', 'nsubj', 'CD', 'ii']
+
+9 :  ['kill', '0', 'ROOT', 'VBP', 'kill']
+
+10 :  ['you', '9', 'dobj', 'PRP', 'you']
+
+11 :  ['!', '9', 'punct', '.', '!']
+
+Ellipsis at:  do
+
+{8: 0}
+
+After looking at noun subjects: 
+
+{8: 1}
+
+After disfavouring complement clauses: 
+
+{8: 1}
+
+After looking at auxiliaries: 
+
+{8: 1}
+
+After backtracking up dependency tree: 
+
+{8: 2}
+
+Disadvantaging backward gapping: 
+
+{8: 1}
+
+Main verb:  8
+
+Elliptical VP:  [8]
+
+Output sentence:  ['If', 'you', 'do', "n't", 'KILL', ',', 'I', '`', 'II', 'kill', 'you', '!']
+
+Found verb:  ['kill']
+
+=====
+
+
+
+=====
+I had my eyes closed.
+
+1 :  ['I', '2', 'nsubj', 'PRP', 'I']
+
+2 :  ['had', '0', 'ROOT', 'VBD', 'have']
+
+3 :  ['my', '4', 'nmod:poss', 'PRP$', 'my']
+
+4 :  ['eyes', '5', 'nsubj', 'NNS', 'eye']
+
+5 :  ['closed', '2', 'ccomp', 'VBD', 'close']
+
+6 :  ['.', '2', 'punct', '.', '.']
+
+Ellipsis at:  had
+
+{4: 0}
+
+After looking at noun subjects: 
+
+{4: 0}
+
+After disfavouring complement clauses: 
+
+{4: 0}
+
+After looking at auxiliaries: 
+
+{4: 0}
+
+After backtracking up dependency tree: 
+
+{4: 0}
+
+Disadvantaging backward gapping: 
+
+{4: -1}
+
+Main verb:  4
+
+Elliptical VP:  [4]
+
+Output sentence:  ['I', 'had', 'CLOSED', 'my', 'eyes', 'closed', '.']
+
+Found verb:  ['closed']
+
+=====
+
+
+
+=====
+If you don't, I'II kill you.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '9', 'advcl', 'VBP', 'do']
+
+4 :  ["n't", '3', 'neg', 'RB', 'not']
+
+5 :  [',', '9', 'punct', ',', ',']
+
+6 :  ['I', '9', 'dep', 'PRP', 'I']
+
+7 :  ['`', '9', 'punct', '``', '`']
+
+8 :  ['II', '9', 'nsubj', 'CD', 'ii']
+
+9 :  ['kill', '0', 'ROOT', 'VBP', 'kill']
+
+10 :  ['you', '9', 'dobj', 'PRP', 'you']
+
+11 :  ['.', '9', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{8: 0}
+
+After looking at noun subjects: 
+
+{8: 1}
+
+After disfavouring complement clauses: 
+
+{8: 1}
+
+After looking at auxiliaries: 
+
+{8: 1}
+
+After backtracking up dependency tree: 
+
+{8: 2}
+
+Disadvantaging backward gapping: 
+
+{8: 1}
+
+Main verb:  8
+
+Elliptical VP:  [8]
+
+Output sentence:  ['If', 'you', 'do', "n't", 'KILL', ',', 'I', '`', 'II', 'kill', 'you', '.']
+
+Found verb:  ['kill']
+
+=====
+
+
+
+=====
+What has gotten in to you?
+
+1 :  ['What', '3', 'nsubj', 'WDT', 'what']
+
+2 :  ['has', '3', 'dep', 'VBZ', 'have']
+
+3 :  ['gotten', '0', 'ROOT', 'VBN', 'get']
+
+4 :  ['in', '3', 'compound:prt', 'IN', 'in']
+
+5 :  ['to', '6', 'case', 'TO', 'to']
+
+6 :  ['you', '3', 'nmod', 'PRP', 'you']
+
+7 :  ['?', '3', 'punct', '.', '?']
+
+Ellipsis at:  has
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2, 3]
+
+Output sentence:  ['What', 'has', 'GOTTEN', 'IN', 'gotten', 'in', 'to', 'you', '?']
+
+Found verb:  ['gotten', 'in']
+
+=====
+
+
+
+=====
+The prettiest is when she's playing the piano.
+
+1 :  ['The', '2', 'det', 'DT', 'the']
+
+2 :  ['prettiest', '3', 'nsubj', 'JJS', 'prettiest']
+
+3 :  ['is', '0', 'ROOT', 'VBZ', 'be']
+
+4 :  ['when', '7', 'advmod', 'WRB', 'when']
+
+5 :  ['she', '7', 'nsubj', 'PRP', 'she']
+
+6 :  ["'s", '7', 'aux', 'VBZ', 'be']
+
+7 :  ['playing', '3', 'advcl', 'VBG', 'play']
+
+8 :  ['the', '9', 'det', 'DT', 'the']
+
+9 :  ['piano', '7', 'dobj', 'NN', 'piano']
+
+10 :  ['.', '3', 'punct', '.', '.']
+
+Ellipsis at:  is
+
+{5: 0, 6: 0}
+
+After looking at noun subjects: 
+
+{6: 0}
+
+After disfavouring complement clauses: 
+
+{6: 0}
+
+After looking at auxiliaries: 
+
+{6: 0}
+
+After backtracking up dependency tree: 
+
+{6: 0}
+
+Disadvantaging backward gapping: 
+
+{6: -1}
+
+Main verb:  6
+
+Elliptical VP:  [6]
+
+Output sentence:  ['The', 'prettiest', 'is', 'PLAYING', 'when', 'she', "'s", 'playing', 'the', 'piano', '.']
+
+Found verb:  ['playing']
+
+=====
+
+
+
+=====
+What are we supposed to do if caught by teacher.
+
+1 :  ['What', '4', 'dep', 'WP', 'what']
+
+2 :  ['are', '4', 'auxpass', 'VBP', 'be']
+
+3 :  ['we', '4', 'nsubjpass', 'PRP', 'we']
+
+4 :  ['supposed', '0', 'ROOT', 'VBN', 'suppose']
+
+5 :  ['to', '6', 'mark', 'TO', 'to']
+
+6 :  ['do', '4', 'xcomp', 'VB', 'do']
+
+7 :  ['if', '8', 'mark', 'IN', 'if']
+
+8 :  ['caught', '6', 'advcl', 'VBN', 'catch']
+
+9 :  ['by', '10', 'case', 'IN', 'by']
+
+10 :  ['teacher', '8', 'nmod', 'NN', 'teacher']
+
+11 :  ['.', '4', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{1: 0, 3: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{3: 2, 7: 0}
+
+After disfavouring complement clauses: 
+
+{3: -1, 7: 0}
+
+After looking at auxiliaries: 
+
+{3: -1, 7: 0}
+
+After backtracking up dependency tree: 
+
+{3: 0, 7: 0}
+
+Disadvantaging backward gapping: 
+
+{3: 0, 7: -1}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['What', 'are', 'we', 'supposed', 'to', 'do', 'SUPPOSE', 'if', 'caught', 'by', 'teacher', '.']
+
+Found verb:  ['supposed']
+
+=====
+
+
+
+=====
+Can I see what's in your pocket?
+
+1 :  ['Can', '0', 'ROOT', 'MD', 'can']
+
+2 :  ['I', '1', 'dep', 'PRP', 'I']
+
+3 :  ['see', '8', 'dep', 'VB', 'see']
+
+4 :  ['what', '8', 'nsubj', 'WP', 'what']
+
+5 :  ["'s", '8', 'cop', 'VBZ', 'be']
+
+6 :  ['in', '8', 'case', 'IN', 'in']
+
+7 :  ['your', '8', 'nmod:poss', 'PRP$', 'you']
+
+8 :  ['pocket', '1', 'dep', 'NN', 'pocket']
+
+9 :  ['?', '1', 'punct', '.', '?']
+
+Ellipsis at:  Can
+
+{2: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 0}
+
+Disadvantaging backward gapping: 
+
+{2: -1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Can', 'SEE', 'I', 'see', 'what', "'s", 'in', 'your', 'pocket', '?']
+
+Found verb:  ['see']
+
+=====
+
+
+
+=====
+She kept pushing me to meet him Doesn't look bad, does he?
+
+1 :  ['She', '2', 'nsubj', 'PRP', 'she']
+
+2 :  ['kept', '13', 'dep', 'VBD', 'keep']
+
+3 :  ['pushing', '2', 'xcomp', 'VBG', 'push']
+
+4 :  ['me', '3', 'dobj', 'PRP', 'I']
+
+5 :  ['to', '6', 'mark', 'TO', 'to']
+
+6 :  ['meet', '3', 'advcl', 'VB', 'meet']
+
+7 :  ['him', '6', 'dobj', 'PRP', 'he']
+
+8 :  ['Does', '10', 'aux', 'VBZ', 'do']
+
+9 :  ["n't", '10', 'neg', 'RB', 'not']
+
+10 :  ['look', '2', 'dep', 'VB', 'look']
+
+11 :  ['bad', '10', 'xcomp', 'JJ', 'bad']
+
+12 :  [',', '13', 'punct', ',', ',']
+
+13 :  ['does', '0', 'ROOT', 'VBZ', 'do']
+
+14 :  ['he', '13', 'nsubj', 'PRP', 'he']
+
+15 :  ['?', '13', 'punct', '.', '?']
+
+Ellipsis at:  does
+
+{1: 0, 2: 0, 5: 0, 7: 0, 9: 0}
+
+After looking at noun subjects: 
+
+{1: 1, 2: 1, 5: 0, 9: 0}
+
+After disfavouring complement clauses: 
+
+{1: 1, 2: 1, 5: 0, 9: 0}
+
+After looking at auxiliaries: 
+
+{1: 1, 2: 1, 5: 0, 9: 1}
+
+After backtracking up dependency tree: 
+
+{1: 1, 2: 1, 5: 0, 9: 1}
+
+Disadvantaging backward gapping: 
+
+{1: 1, 2: 1, 5: 0, 9: 1}
+
+Main verb:  9
+
+Elliptical VP:  [9]
+
+Output sentence:  ['She', 'kept', 'pushing', 'me', 'to', 'meet', 'him', 'Does', "n't", 'look', 'bad', ',', 'does', 'LOOK', 'he', '?']
+
+Found verb:  ['look']
+
+=====
+
+
+
+=====
+If it hurts, act like it doesn't.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['it', '3', 'nsubj', 'PRP', 'it']
+
+3 :  ['hurts', '5', 'advcl', 'VBZ', 'hurt']
+
+4 :  [',', '5', 'punct', ',', ',']
+
+5 :  ['act', '0', 'ROOT', 'VBP', 'act']
+
+6 :  ['like', '8', 'mark', 'IN', 'like']
+
+7 :  ['it', '8', 'nsubj', 'PRP', 'it']
+
+8 :  ['does', '5', 'advcl', 'VBZ', 'do']
+
+9 :  ["n't", '8', 'neg', 'RB', 'not']
+
+10 :  ['.', '5', 'punct', '.', '.']
+
+Ellipsis at:  does
+
+{2: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{2: 2, 4: 0}
+
+After disfavouring complement clauses: 
+
+{2: 2, 4: 0}
+
+After looking at auxiliaries: 
+
+{2: 2, 4: 0}
+
+After backtracking up dependency tree: 
+
+{2: 2, 4: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 2, 4: 1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['If', 'it', 'hurts', ',', 'act', 'like', 'it', 'does', "n't", 'HURT', '.']
+
+Found verb:  ['hurts']
+
+=====
+
+
+
+=====
+Sometimes I feel like I know her and sometimes I don't.
+
+1 :  ['Sometimes', '3', 'advmod', 'RB', 'sometimes']
+
+2 :  ['I', '3', 'nsubj', 'PRP', 'I']
+
+3 :  ['feel', '0', 'ROOT', 'VBP', 'feel']
+
+4 :  ['like', '6', 'mark', 'IN', 'like']
+
+5 :  ['I', '6', 'nsubj', 'PRP', 'I']
+
+6 :  ['know', '3', 'advcl', 'VBP', 'know']
+
+7 :  ['her', '6', 'dobj', 'PRP', 'she']
+
+8 :  ['and', '3', 'cc', 'CC', 'and']
+
+9 :  ['sometimes', '11', 'advmod', 'RB', 'sometimes']
+
+10 :  ['I', '11', 'nsubj', 'PRP', 'I']
+
+11 :  ['do', '3', 'ccomp', 'VBP', 'do']
+
+12 :  ["n't", '11', 'neg', 'RB', 'not']
+
+13 :  ['.', '3', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{2: 0, 5: 0}
+
+After looking at noun subjects: 
+
+{2: 2, 5: 2}
+
+After disfavouring complement clauses: 
+
+{2: -1, 5: 2}
+
+After looking at auxiliaries: 
+
+{2: -1, 5: 2}
+
+After backtracking up dependency tree: 
+
+{2: 0, 5: 2}
+
+Disadvantaging backward gapping: 
+
+{2: 0, 5: 2}
+
+Main verb:  5
+
+Elliptical VP:  [5]
+
+Output sentence:  ['Sometimes', 'I', 'feel', 'like', 'I', 'know', 'her', 'and', 'sometimes', 'I', 'do', "n't", 'KNOW', '.']
+
+Found verb:  ['know']
+
+=====
+
+
+
+=====
+She wanted to introduce a nice man to me, but I couldn't.
+
+1 :  ['She', '2', 'nsubj', 'PRP', 'she']
+
+2 :  ['wanted', '0', 'ROOT', 'VBD', 'want']
+
+3 :  ['to', '4', 'mark', 'TO', 'to']
+
+4 :  ['introduce', '2', 'xcomp', 'VB', 'introduce']
+
+5 :  ['a', '7', 'det', 'DT', 'a']
+
+6 :  ['nice', '7', 'amod', 'JJ', 'nice']
+
+7 :  ['man', '4', 'dobj', 'NN', 'man']
+
+8 :  ['to', '9', 'case', 'TO', 'to']
+
+9 :  ['me', '4', 'nmod', 'PRP', 'I']
+
+10 :  [',', '2', 'punct', ',', ',']
+
+11 :  ['but', '2', 'cc', 'CC', 'but']
+
+12 :  ['I', '13', 'nsubj', 'PRP', 'I']
+
+13 :  ['could', '2', 'conj', 'MD', 'could']
+
+14 :  ["n't", '13', 'neg', 'RB', 'not']
+
+15 :  ['.', '2', 'punct', '.', '.']
+
+Ellipsis at:  could
+
+{1: 0, 3: 0}
+
+After looking at noun subjects: 
+
+{1: 1, 3: 1}
+
+After disfavouring complement clauses: 
+
+{1: 1, 3: 1}
+
+After looking at auxiliaries: 
+
+{1: 1, 3: 1}
+
+After backtracking up dependency tree: 
+
+{1: 2, 3: 1}
+
+Disadvantaging backward gapping: 
+
+{1: 2, 3: 1}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['She', 'wanted', 'to', 'introduce', 'a', 'nice', 'man', 'to', 'me', ',', 'but', 'I', 'could', "n't", 'WANT', '.']
+
+Found verb:  ['wanted']
+
+=====
+
+
+
+=====
+Does this tree look the same as before?
+
+1 :  ['Does', '0', 'ROOT', 'VBZ', 'do']
+
+2 :  ['this', '3', 'det', 'DT', 'this']
+
+3 :  ['tree', '1', 'nsubj', 'NN', 'tree']
+
+4 :  ['look', '1', 'dep', 'VB', 'look']
+
+5 :  ['the', '6', 'det', 'DT', 'the']
+
+6 :  ['same', '4', 'dobj', 'JJ', 'same']
+
+7 :  ['as', '4', 'advcl', 'IN', 'as']
+
+8 :  ['before', '7', 'dep', 'IN', 'before']
+
+9 :  ['?', '1', 'punct', '.', '?']
+
+Ellipsis at:  Does
+
+{3: 0}
+
+After looking at noun subjects: 
+
+{3: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0}
+
+After looking at auxiliaries: 
+
+{3: 0}
+
+After backtracking up dependency tree: 
+
+{3: 0}
+
+Disadvantaging backward gapping: 
+
+{3: -1}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['Does', 'LOOK', 'this', 'tree', 'look', 'the', 'same', 'as', 'before', '?']
+
+Found verb:  ['look']
+
+=====
+
+
+
+=====
+I did, but not to see auntie!
+
+1 :  ['I', '2', 'nsubj', 'PRP', 'I']
+
+2 :  ['did', '0', 'ROOT', 'VBD', 'do']
+
+3 :  [',', '2', 'punct', ',', ',']
+
+4 :  ['but', '2', 'cc', 'CC', 'but']
+
+5 :  ['not', '7', 'neg', 'RB', 'not']
+
+6 :  ['to', '7', 'mark', 'TO', 'to']
+
+7 :  ['see', '2', 'conj', 'VB', 'see']
+
+8 :  ['auntie', '7', 'dobj', 'NN', 'auntie']
+
+9 :  ['!', '2', 'punct', '.', '!']
+
+Ellipsis at:  did
+
+{6: 0}
+
+After looking at noun subjects: 
+
+{6: 2}
+
+After disfavouring complement clauses: 
+
+{6: 2}
+
+After looking at auxiliaries: 
+
+{6: 2}
+
+After backtracking up dependency tree: 
+
+{6: 2}
+
+Disadvantaging backward gapping: 
+
+{6: 1}
+
+Main verb:  6
+
+Elliptical VP:  [6]
+
+Output sentence:  ['I', 'did', 'SEE', ',', 'but', 'not', 'to', 'see', 'auntie', '!']
+
+Found verb:  ['see']
+
+=====
+
+
+
+=====
+Would you believe that, too?
+
+1 :  ['Would', '0', 'ROOT', 'MD', 'would']
+
+2 :  ['you', '1', 'dep', 'PRP', 'you']
+
+3 :  ['believe', '4', 'dep', 'VB', 'believe']
+
+4 :  ['that', '1', 'dep', 'IN', 'that']
+
+5 :  [',', '4', 'punct', ',', ',']
+
+6 :  ['too', '4', 'advmod', 'RB', 'too']
+
+7 :  ['?', '1', 'punct', '.', '?']
+
+Ellipsis at:  Would
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 0}
+
+Disadvantaging backward gapping: 
+
+{2: -1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Would', 'BELIEVE', 'you', 'believe', 'that', ',', 'too', '?']
+
+Found verb:  ['believe']
+
+=====
+
+
+
+=====
+Then are you hitting on me?
+
+1 :  ['Then', '2', 'advmod', 'RB', 'then']
+
+2 :  ['are', '0', 'ROOT', 'VBP', 'be']
+
+3 :  ['you', '2', 'nsubj', 'PRP', 'you']
+
+4 :  ['hitting', '3', 'acl', 'VBG', 'hit']
+
+5 :  ['on', '6', 'case', 'IN', 'on']
+
+6 :  ['me', '4', 'nmod', 'PRP', 'I']
+
+7 :  ['?', '2', 'punct', '.', '?']
+
+Ellipsis at:  are
+
+{3: 0}
+
+After looking at noun subjects: 
+
+{3: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0}
+
+After looking at auxiliaries: 
+
+{3: 0}
+
+After backtracking up dependency tree: 
+
+{3: 0}
+
+Disadvantaging backward gapping: 
+
+{3: -1}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['Then', 'are', 'HITTING', 'you', 'hitting', 'on', 'me', '?']
+
+Found verb:  ['hitting']
+
+=====
+
+
+
+=====
+While watching her sleep like a baby, it may be forward, but this occurred to me.
+
+1 :  ['While', '2', 'mark', 'IN', 'while']
+
+2 :  ['watching', '11', 'advcl', 'VBG', 'watch']
+
+3 :  ['her', '4', 'nmod:poss', 'PRP$', 'she']
+
+4 :  ['sleep', '2', 'dobj', 'NN', 'sleep']
+
+5 :  ['like', '7', 'case', 'IN', 'like']
+
+6 :  ['a', '7', 'det', 'DT', 'a']
+
+7 :  ['baby', '2', 'nmod', 'NN', 'baby']
+
+8 :  [',', '11', 'punct', ',', ',']
+
+9 :  ['it', '11', 'nsubj', 'PRP', 'it']
+
+10 :  ['may', '11', 'aux', 'MD', 'may']
+
+11 :  ['be', '0', 'ROOT', 'VB', 'be']
+
+12 :  ['forward', '11', 'advmod', 'RB', 'forward']
+
+13 :  [',', '11', 'punct', ',', ',']
+
+14 :  ['but', '11', 'cc', 'CC', 'but']
+
+15 :  ['this', '16', 'nsubj', 'DT', 'this']
+
+16 :  ['occurred', '11', 'conj', 'VBD', 'occur']
+
+17 :  ['to', '18', 'case', 'TO', 'to']
+
+18 :  ['me', '16', 'nmod', 'PRP', 'I']
+
+19 :  ['.', '11', 'punct', '.', '.']
+
+Ellipsis at:  be
+
+{1: 0, 15: 0}
+
+After looking at noun subjects: 
+
+{1: 0}
+
+After disfavouring complement clauses: 
+
+{1: 0}
+
+After looking at auxiliaries: 
+
+{1: 0}
+
+After backtracking up dependency tree: 
+
+{1: 0}
+
+Disadvantaging backward gapping: 
+
+{1: 0}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['While', 'watching', 'her', 'sleep', 'like', 'a', 'baby', ',', 'it', 'may', 'be', 'WATCHING', 'forward', ',', 'but', 'this', 'occurred', 'to', 'me', '.']
+
+Found verb:  ['watching']
+
+=====
+
+
+
+=====
+So what are you gonna do?
+
+1 :  ['So', '5', 'advmod', 'RB', 'so']
+
+2 :  ['what', '5', 'dep', 'WP', 'what']
+
+3 :  ['are', '5', 'aux', 'VBP', 'be']
+
+4 :  ['you', '5', 'nsubj', 'PRP', 'you']
+
+5 :  ['gon', '0', 'ROOT', 'VBG', 'gon']
+
+6 :  ['na', '7', 'mark', 'TO', 'na']
+
+7 :  ['do', '5', 'xcomp', 'VB', 'do']
+
+8 :  ['?', '5', 'punct', '.', '?']
+
+Ellipsis at:  do
+
+{2: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{4: 2}
+
+After disfavouring complement clauses: 
+
+{4: -1}
+
+After looking at auxiliaries: 
+
+{4: -1}
+
+After backtracking up dependency tree: 
+
+{4: 0}
+
+Disadvantaging backward gapping: 
+
+{4: 0}
+
+Main verb:  4
+
+Elliptical VP:  [4]
+
+Output sentence:  ['So', 'what', 'are', 'you', 'gon', 'na', 'do', 'GON', '?']
+
+Found verb:  ['gon']
+
+=====
+
+
+
+=====
+Don't be a coward.
+
+1 :  ['Do', '5', 'aux', 'VBP', 'do']
+
+2 :  ["n't", '5', 'neg', 'RB', 'not']
+
+3 :  ['be', '5', 'cop', 'VB', 'be']
+
+4 :  ['a', '5', 'det', 'DT', 'a']
+
+5 :  ['coward', '0', 'ROOT', 'NN', 'coward']
+
+6 :  ['.', '5', 'punct', '.', '.']
+
+Ellipsis at:  Do
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 1}
+
+After backtracking up dependency tree: 
+
+{2: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Do', "n't", 'BE', 'be', 'a', 'coward', '.']
+
+Found verb:  ['be']
+
+=====
+
+
+
+=====
+But you know, she must have been an extraordinary girl.
+
+1 :  ['But', '11', 'cc', 'CC', 'but']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['know', '11', 'dep', 'VBP', 'know']
+
+4 :  [',', '11', 'punct', ',', ',']
+
+5 :  ['she', '11', 'nsubj', 'PRP', 'she']
+
+6 :  ['must', '11', 'aux', 'MD', 'must']
+
+7 :  ['have', '11', 'aux', 'VB', 'have']
+
+8 :  ['been', '11', 'cop', 'VBN', 'be']
+
+9 :  ['an', '11', 'det', 'DT', 'a']
+
+10 :  ['extraordinary', '11', 'amod', 'JJ', 'extraordinary']
+
+11 :  ['girl', '0', 'ROOT', 'NN', 'girl']
+
+12 :  ['.', '11', 'punct', '.', '.']
+
+Ellipsis at:  must
+
+{2: 0, 6: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{2: 0, 6: 0, 7: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0, 6: 0, 7: 0}
+
+After looking at auxiliaries: 
+
+{2: 0, 6: 0, 7: 1}
+
+After backtracking up dependency tree: 
+
+{2: 0, 6: 0, 7: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 0, 6: -1, 7: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['But', 'you', 'know', ',', 'she', 'must', 'KNOW', 'have', 'been', 'an', 'extraordinary', 'girl', '.']
+
+Ellipsis at:  have
+
+{2: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{2: 0, 7: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0, 7: 0}
+
+After looking at auxiliaries: 
+
+{2: 0, 7: 1}
+
+After backtracking up dependency tree: 
+
+{2: 0, 7: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 0, 7: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['But', 'you', 'know', ',', 'she', 'must', 'KNOW', 'have', 'KNOW', 'been', 'an', 'extraordinary', 'girl', '.']
+
+Found verb:  ['know']
+
+=====
+
+
+
+=====
+Can't I join us, can I?
+
+1 :  ['Ca', '4', 'aux', 'MD', 'can']
+
+2 :  ["n't", '4', 'neg', 'RB', 'not']
+
+3 :  ['I', '4', 'nsubj', 'PRP', 'I']
+
+4 :  ['join', '0', 'ROOT', 'VB', 'join']
+
+5 :  ['us', '4', 'dobj', 'PRP', 'we']
+
+6 :  [',', '4', 'punct', ',', ',']
+
+7 :  ['can', '4', 'dep', 'MD', 'can']
+
+8 :  ['I', '7', 'dep', 'PRP', 'I']
+
+9 :  ['?', '4', 'punct', '.', '?']
+
+Ellipsis at:  can
+
+{3: 0}
+
+After looking at noun subjects: 
+
+{3: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0}
+
+After looking at auxiliaries: 
+
+{3: 1}
+
+After backtracking up dependency tree: 
+
+{3: 2}
+
+Disadvantaging backward gapping: 
+
+{3: 2}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['Ca', "n't", 'I', 'join', 'us', ',', 'can', 'JOIN', 'I', '?']
+
+Found verb:  ['join']
+
+=====
+
+
+
+=====
+If I prepare nothing, she may murder me.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['I', '3', 'nsubj', 'PRP', 'I']
+
+3 :  ['prepare', '8', 'advcl', 'VBP', 'prepare']
+
+4 :  ['nothing', '3', 'dobj', 'NN', 'nothing']
+
+5 :  [',', '8', 'punct', ',', ',']
+
+6 :  ['she', '8', 'nsubj', 'PRP', 'she']
+
+7 :  ['may', '8', 'aux', 'MD', 'may']
+
+8 :  ['murder', '0', 'ROOT', 'NN', 'murder']
+
+9 :  ['me', '8', 'dobj', 'PRP', 'I']
+
+10 :  ['.', '8', 'punct', '.', '.']
+
+Ellipsis at:  may
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 0}
+
+Disadvantaging backward gapping: 
+
+{2: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['If', 'I', 'prepare', 'nothing', ',', 'she', 'may', 'PREPARE', 'murder', 'me', '.']
+
+Found verb:  ['prepare']
+
+=====
+
+
+
+=====
+You mean she could be my pussy?
+
+1 :  ['You', '2', 'nsubj', 'PRP', 'you']
+
+2 :  ['mean', '0', 'ROOT', 'VBP', 'mean']
+
+3 :  ['she', '7', 'nsubj', 'PRP', 'she']
+
+4 :  ['could', '7', 'aux', 'MD', 'could']
+
+5 :  ['be', '7', 'cop', 'VB', 'be']
+
+6 :  ['my', '7', 'nmod:poss', 'PRP$', 'my']
+
+7 :  ['pussy', '2', 'ccomp', 'NN', 'pussy']
+
+8 :  ['?', '2', 'punct', '.', '?']
+
+Ellipsis at:  could
+
+{1: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{1: 0, 4: 0}
+
+After disfavouring complement clauses: 
+
+{1: 0, 4: 0}
+
+After looking at auxiliaries: 
+
+{1: 0, 4: 1}
+
+After backtracking up dependency tree: 
+
+{1: 1, 4: 1}
+
+Disadvantaging backward gapping: 
+
+{1: 1, 4: 0}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['You', 'mean', 'she', 'could', 'MEAN', 'be', 'my', 'pussy', '?']
+
+Found verb:  ['mean']
+
+=====
+
+
+
+=====
+That's why don't be foolish. /Why am I foolish?
+
+1 :  ['That', '2', 'nsubj', 'DT', 'that']
+
+2 :  ["'s", '0', 'ROOT', 'VBZ', 'be']
+
+3 :  ['why', '7', 'advmod', 'WRB', 'why']
+
+4 :  ['do', '7', 'aux', 'VBP', 'do']
+
+5 :  ["n't", '7', 'neg', 'RB', 'not']
+
+6 :  ['be', '7', 'cop', 'VB', 'be']
+
+7 :  ['foolish', '2', 'advcl', 'JJ', 'foolish']
+
+8 :  ['.', '2', 'punct', '.', '.']
+
+9 :  ['/', '5', 'punct', ':', '/']
+
+10 :  ['Why', '5', 'advmod', 'WRB', 'why']
+
+11 :  ['am', '5', 'aux', 'VBP', 'be']
+
+12 :  ['I', '5', 'nsubj', 'PRP', 'I']
+
+13 :  ['foolish', '0', 'ROOT', 'JJ', 'foolish']
+
+14 :  ['?', '5', 'punct', '.', '?']
+
+Ellipsis at:  do
+
+{1: 0, 5: 0, 10: 0}
+
+After looking at noun subjects: 
+
+{5: 0}
+
+After disfavouring complement clauses: 
+
+{5: 0}
+
+After looking at auxiliaries: 
+
+{5: 1}
+
+After backtracking up dependency tree: 
+
+{5: 1}
+
+Disadvantaging backward gapping: 
+
+{5: 0}
+
+Main verb:  5
+
+Elliptical VP:  [5]
+
+Output sentence:  ['That', "'s", 'why', 'do', "n't", 'BE', 'be', 'foolish', '.', '/', 'Why', 'am', 'I', 'foolish', '?']
+
+Found verb:  ['be']
+
+=====
+
+
+
+=====
+What does 'can' mean?
+
+1 :  ['What', '4', 'nsubj', 'WP', 'what']
+
+2 :  ['does', '4', 'aux', 'VBZ', 'do']
+
+3 :  ['`', '4', 'punct', '``', '`']
+
+4 :  ['can', '0', 'ROOT', 'MD', 'can']
+
+5 :  ["'", '4', 'punct', "''", "'"]
+
+6 :  ['mean', '4', 'dep', 'VB', 'mean']
+
+7 :  ['?', '4', 'punct', '.', '?']
+
+Ellipsis at:  does
+
+{5: 0}
+
+After looking at noun subjects: 
+
+{5: 0}
+
+After disfavouring complement clauses: 
+
+{5: 0}
+
+After looking at auxiliaries: 
+
+{5: 0}
+
+After backtracking up dependency tree: 
+
+{5: 0}
+
+Disadvantaging backward gapping: 
+
+{5: -1}
+
+Main verb:  5
+
+Elliptical VP:  [5]
+
+Output sentence:  ['What', 'does', 'MEAN', '`', 'can', "'", 'mean', '?']
+
+Ellipsis at:  can
+
+{1: 0, 5: 0}
+
+After looking at noun subjects: 
+
+{1: 0, 5: 0}
+
+After disfavouring complement clauses: 
+
+{1: 0, 5: 0}
+
+After looking at auxiliaries: 
+
+{1: 0, 5: 0}
+
+After backtracking up dependency tree: 
+
+{1: 0, 5: 0}
+
+Disadvantaging backward gapping: 
+
+{1: 0, 5: -1}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['What', 'does', 'MEAN', '`', 'can', 'DO', "'", 'mean', '?']
+
+Found verb:  ['does']
+
+=====
+
+
+
+=====
+I think you didn't.
+
+1 :  ['I', '2', 'nsubj', 'PRP', 'I']
+
+2 :  ['think', '0', 'ROOT', 'VBP', 'think']
+
+3 :  ['you', '4', 'nsubj', 'PRP', 'you']
+
+4 :  ['did', '2', 'ccomp', 'VBD', 'do']
+
+5 :  ["n't", '4', 'neg', 'RB', 'not']
+
+6 :  ['.', '2', 'punct', '.', '.']
+
+Ellipsis at:  did
+
+{1: 0}
+
+After looking at noun subjects: 
+
+{1: 1}
+
+After disfavouring complement clauses: 
+
+{1: -2}
+
+After looking at auxiliaries: 
+
+{1: -2}
+
+After backtracking up dependency tree: 
+
+{1: -1}
+
+Disadvantaging backward gapping: 
+
+{1: -1}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['I', 'think', 'you', 'did', "n't", 'THINK', '.']
+
+Found verb:  ['think']
+
+=====
+
+
+
+=====
+If you do, I'll take her.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '7', 'advcl', 'VBP', 'do']
+
+4 :  [',', '7', 'punct', ',', ',']
+
+5 :  ['I', '7', 'nsubj', 'PRP', 'I']
+
+6 :  ["'ll", '7', 'aux', 'MD', 'will']
+
+7 :  ['take', '0', 'ROOT', 'VB', 'take']
+
+8 :  ['her', '7', 'dobj', 'PRP', 'she']
+
+9 :  ['.', '7', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{6: 0}
+
+After looking at noun subjects: 
+
+{6: 1}
+
+After disfavouring complement clauses: 
+
+{6: 1}
+
+After looking at auxiliaries: 
+
+{6: 1}
+
+After backtracking up dependency tree: 
+
+{6: 2}
+
+Disadvantaging backward gapping: 
+
+{6: 1}
+
+Main verb:  6
+
+Elliptical VP:  [6]
+
+Output sentence:  ['If', 'you', 'do', 'TAKE', ',', 'I', "'ll", 'take', 'her', '.']
+
+Found verb:  ['take']
+
+=====
+
+
+
+=====
+I like her that way. /What would you like?
+
+1 :  ['I', '2', 'nsubj', 'PRP', 'I']
+
+2 :  ['like', '0', 'ROOT', 'VBP', 'like']
+
+3 :  ['her', '5', 'nmod:poss', 'PRP$', 'she']
+
+4 :  ['that', '5', 'det', 'DT', 'that']
+
+5 :  ['way', '2', 'dobj', 'NN', 'way']
+
+6 :  ['.', '2', 'punct', '.', '.']
+
+7 :  ['/', '5', 'punct', ':', '/']
+
+8 :  ['What', '5', 'dobj', 'WP', 'what']
+
+9 :  ['would', '5', 'aux', 'MD', 'would']
+
+10 :  ['you', '5', 'nsubj', 'PRP', 'you']
+
+11 :  ['like', '0', 'ROOT', 'VB', 'like']
+
+12 :  ['?', '5', 'punct', '.', '?']
+
+Ellipsis at:  would
+
+{1: 0, 10: 0}
+
+After looking at noun subjects: 
+
+{1: 0, 10: 0}
+
+After disfavouring complement clauses: 
+
+{1: 0, 10: 0}
+
+After looking at auxiliaries: 
+
+{1: 0, 10: 0}
+
+After backtracking up dependency tree: 
+
+{1: 1, 10: 0}
+
+Disadvantaging backward gapping: 
+
+{1: 1, 10: -1}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['I', 'like', 'her', 'that', 'way', '.', '/', 'What', 'would', 'LIKE', 'you', 'like', '?']
+
+Found verb:  ['like']
+
+=====
+
+
+
+=====
+If you do, ask him to take you.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '5', 'advcl', 'VBP', 'do']
+
+4 :  [',', '5', 'punct', ',', ',']
+
+5 :  ['ask', '0', 'ROOT', 'VBP', 'ask']
+
+6 :  ['him', '5', 'dobj', 'PRP', 'he']
+
+7 :  ['to', '8', 'mark', 'TO', 'to']
+
+8 :  ['take', '5', 'xcomp', 'VB', 'take']
+
+9 :  ['you', '8', 'dobj', 'PRP', 'you']
+
+10 :  ['.', '5', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{4: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{4: 0, 7: 0}
+
+After disfavouring complement clauses: 
+
+{4: 0, 7: 0}
+
+After looking at auxiliaries: 
+
+{4: 0, 7: 0}
+
+After backtracking up dependency tree: 
+
+{4: 1, 7: 0}
+
+Disadvantaging backward gapping: 
+
+{4: 0, 7: -1}
+
+Main verb:  4
+
+Elliptical VP:  [4]
+
+Output sentence:  ['If', 'you', 'do', 'ASK', ',', 'ask', 'him', 'to', 'take', 'you', '.']
+
+Found verb:  ['ask']
+
+=====
+
+
+
+=====
+If you don't, I'II kill you!
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '9', 'advcl', 'VBP', 'do']
+
+4 :  ["n't", '3', 'neg', 'RB', 'not']
+
+5 :  [',', '9', 'punct', ',', ',']
+
+6 :  ['I', '9', 'dep', 'PRP', 'I']
+
+7 :  ['`', '9', 'punct', '``', '`']
+
+8 :  ['II', '9', 'nsubj', 'CD', 'ii']
+
+9 :  ['kill', '0', 'ROOT', 'VBP', 'kill']
+
+10 :  ['you', '9', 'dobj', 'PRP', 'you']
+
+11 :  ['!', '9', 'punct', '.', '!']
+
+Ellipsis at:  do
+
+{8: 0}
+
+After looking at noun subjects: 
+
+{8: 1}
+
+After disfavouring complement clauses: 
+
+{8: 1}
+
+After looking at auxiliaries: 
+
+{8: 1}
+
+After backtracking up dependency tree: 
+
+{8: 2}
+
+Disadvantaging backward gapping: 
+
+{8: 1}
+
+Main verb:  8
+
+Elliptical VP:  [8]
+
+Output sentence:  ['If', 'you', 'do', "n't", 'KILL', ',', 'I', '`', 'II', 'kill', 'you', '!']
+
+Found verb:  ['kill']
+
+=====
+
+
+
+=====
+I had my eyes closed.
+
+1 :  ['I', '2', 'nsubj', 'PRP', 'I']
+
+2 :  ['had', '0', 'ROOT', 'VBD', 'have']
+
+3 :  ['my', '4', 'nmod:poss', 'PRP$', 'my']
+
+4 :  ['eyes', '5', 'nsubj', 'NNS', 'eye']
+
+5 :  ['closed', '2', 'ccomp', 'VBD', 'close']
+
+6 :  ['.', '2', 'punct', '.', '.']
+
+Ellipsis at:  had
+
+{4: 0}
+
+After looking at noun subjects: 
+
+{4: 0}
+
+After disfavouring complement clauses: 
+
+{4: 0}
+
+After looking at auxiliaries: 
+
+{4: 0}
+
+After backtracking up dependency tree: 
+
+{4: 0}
+
+Disadvantaging backward gapping: 
+
+{4: -1}
+
+Main verb:  4
+
+Elliptical VP:  [4]
+
+Output sentence:  ['I', 'had', 'CLOSED', 'my', 'eyes', 'closed', '.']
+
+Found verb:  ['closed']
+
+=====
+
+
+
+=====
+If you don't, I'II kill you.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '9', 'advcl', 'VBP', 'do']
+
+4 :  ["n't", '3', 'neg', 'RB', 'not']
+
+5 :  [',', '9', 'punct', ',', ',']
+
+6 :  ['I', '9', 'dep', 'PRP', 'I']
+
+7 :  ['`', '9', 'punct', '``', '`']
+
+8 :  ['II', '9', 'nsubj', 'CD', 'ii']
+
+9 :  ['kill', '0', 'ROOT', 'VBP', 'kill']
+
+10 :  ['you', '9', 'dobj', 'PRP', 'you']
+
+11 :  ['.', '9', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{8: 0}
+
+After looking at noun subjects: 
+
+{8: 1}
+
+After disfavouring complement clauses: 
+
+{8: 1}
+
+After looking at auxiliaries: 
+
+{8: 1}
+
+After backtracking up dependency tree: 
+
+{8: 2}
+
+Disadvantaging backward gapping: 
+
+{8: 1}
+
+Main verb:  8
+
+Elliptical VP:  [8]
+
+Output sentence:  ['If', 'you', 'do', "n't", 'KILL', ',', 'I', '`', 'II', 'kill', 'you', '.']
+
+Found verb:  ['kill']
+
+=====
+
+
+
+=====
+What has gotten in to you?
+
+1 :  ['What', '3', 'nsubj', 'WDT', 'what']
+
+2 :  ['has', '3', 'dep', 'VBZ', 'have']
+
+3 :  ['gotten', '0', 'ROOT', 'VBN', 'get']
+
+4 :  ['in', '3', 'compound:prt', 'IN', 'in']
+
+5 :  ['to', '6', 'case', 'TO', 'to']
+
+6 :  ['you', '3', 'nmod', 'PRP', 'you']
+
+7 :  ['?', '3', 'punct', '.', '?']
+
+Ellipsis at:  has
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2, 3]
+
+Output sentence:  ['What', 'has', 'GOTTEN', 'IN', 'gotten', 'in', 'to', 'you', '?']
+
+Found verb:  ['gotten', 'in']
+
+=====
+
+
+
+=====
+The prettiest is when she's playing the piano.
+
+1 :  ['The', '2', 'det', 'DT', 'the']
+
+2 :  ['prettiest', '3', 'nsubj', 'JJS', 'prettiest']
+
+3 :  ['is', '0', 'ROOT', 'VBZ', 'be']
+
+4 :  ['when', '7', 'advmod', 'WRB', 'when']
+
+5 :  ['she', '7', 'nsubj', 'PRP', 'she']
+
+6 :  ["'s", '7', 'aux', 'VBZ', 'be']
+
+7 :  ['playing', '3', 'advcl', 'VBG', 'play']
+
+8 :  ['the', '9', 'det', 'DT', 'the']
+
+9 :  ['piano', '7', 'dobj', 'NN', 'piano']
+
+10 :  ['.', '3', 'punct', '.', '.']
+
+Ellipsis at:  is
+
+{5: 0, 6: 0}
+
+After looking at noun subjects: 
+
+{6: 0}
+
+After disfavouring complement clauses: 
+
+{6: 0}
+
+After looking at auxiliaries: 
+
+{6: 0}
+
+After backtracking up dependency tree: 
+
+{6: 0}
+
+Disadvantaging backward gapping: 
+
+{6: -1}
+
+Main verb:  6
+
+Elliptical VP:  [6]
+
+Output sentence:  ['The', 'prettiest', 'is', 'PLAYING', 'when', 'she', "'s", 'playing', 'the', 'piano', '.']
+
+Found verb:  ['playing']
+
+=====
+
+
+
+=====
+What are we supposed to do if caught by teacher.
+
+1 :  ['What', '4', 'dep', 'WP', 'what']
+
+2 :  ['are', '4', 'auxpass', 'VBP', 'be']
+
+3 :  ['we', '4', 'nsubjpass', 'PRP', 'we']
+
+4 :  ['supposed', '0', 'ROOT', 'VBN', 'suppose']
+
+5 :  ['to', '6', 'mark', 'TO', 'to']
+
+6 :  ['do', '4', 'xcomp', 'VB', 'do']
+
+7 :  ['if', '8', 'mark', 'IN', 'if']
+
+8 :  ['caught', '6', 'advcl', 'VBN', 'catch']
+
+9 :  ['by', '10', 'case', 'IN', 'by']
+
+10 :  ['teacher', '8', 'nmod', 'NN', 'teacher']
+
+11 :  ['.', '4', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{1: 0, 3: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{3: 2, 7: 0}
+
+After disfavouring complement clauses: 
+
+{3: -1, 7: 0}
+
+After looking at auxiliaries: 
+
+{3: -1, 7: 0}
+
+After backtracking up dependency tree: 
+
+{3: 0, 7: 0}
+
+Disadvantaging backward gapping: 
+
+{3: 0, 7: -1}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['What', 'are', 'we', 'supposed', 'to', 'do', 'SUPPOSE', 'if', 'caught', 'by', 'teacher', '.']
+
+Found verb:  ['supposed']
+
+=====
+
+
+
+=====
+Can I see what's in your pocket?
+
+1 :  ['Can', '0', 'ROOT', 'MD', 'can']
+
+2 :  ['I', '1', 'dep', 'PRP', 'I']
+
+3 :  ['see', '8', 'dep', 'VB', 'see']
+
+4 :  ['what', '8', 'nsubj', 'WP', 'what']
+
+5 :  ["'s", '8', 'cop', 'VBZ', 'be']
+
+6 :  ['in', '8', 'case', 'IN', 'in']
+
+7 :  ['your', '8', 'nmod:poss', 'PRP$', 'you']
+
+8 :  ['pocket', '1', 'dep', 'NN', 'pocket']
+
+9 :  ['?', '1', 'punct', '.', '?']
+
+Ellipsis at:  Can
+
+{2: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 0}
+
+Disadvantaging backward gapping: 
+
+{2: -1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Can', 'SEE', 'I', 'see', 'what', "'s", 'in', 'your', 'pocket', '?']
+
+Found verb:  ['see']
+
+=====
+
+
+
+=====
+She kept pushing me to meet him Doesn't look bad, does he?
+
+1 :  ['She', '2', 'nsubj', 'PRP', 'she']
+
+2 :  ['kept', '13', 'dep', 'VBD', 'keep']
+
+3 :  ['pushing', '2', 'xcomp', 'VBG', 'push']
+
+4 :  ['me', '3', 'dobj', 'PRP', 'I']
+
+5 :  ['to', '6', 'mark', 'TO', 'to']
+
+6 :  ['meet', '3', 'advcl', 'VB', 'meet']
+
+7 :  ['him', '6', 'dobj', 'PRP', 'he']
+
+8 :  ['Does', '10', 'aux', 'VBZ', 'do']
+
+9 :  ["n't", '10', 'neg', 'RB', 'not']
+
+10 :  ['look', '2', 'dep', 'VB', 'look']
+
+11 :  ['bad', '10', 'xcomp', 'JJ', 'bad']
+
+12 :  [',', '13', 'punct', ',', ',']
+
+13 :  ['does', '0', 'ROOT', 'VBZ', 'do']
+
+14 :  ['he', '13', 'nsubj', 'PRP', 'he']
+
+15 :  ['?', '13', 'punct', '.', '?']
+
+Ellipsis at:  does
+
+{1: 0, 2: 0, 5: 0, 7: 0, 9: 0}
+
+After looking at noun subjects: 
+
+{1: 1, 2: 1, 5: 0, 9: 0}
+
+After disfavouring complement clauses: 
+
+{1: 1, 2: 1, 5: 0, 9: 0}
+
+After looking at auxiliaries: 
+
+{1: 1, 2: 1, 5: 0, 9: 1}
+
+After backtracking up dependency tree: 
+
+{1: 1, 2: 1, 5: 0, 9: 1}
+
+Disadvantaging backward gapping: 
+
+{1: 1, 2: 1, 5: 0, 9: 1}
+
+Main verb:  9
+
+Elliptical VP:  [9]
+
+Output sentence:  ['She', 'kept', 'pushing', 'me', 'to', 'meet', 'him', 'Does', "n't", 'look', 'bad', ',', 'does', 'LOOK', 'he', '?']
+
+Found verb:  ['look']
+
+=====
+
+
+
+=====
+If it hurts, act like it doesn't.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['it', '3', 'nsubj', 'PRP', 'it']
+
+3 :  ['hurts', '5', 'advcl', 'VBZ', 'hurt']
+
+4 :  [',', '5', 'punct', ',', ',']
+
+5 :  ['act', '0', 'ROOT', 'VBP', 'act']
+
+6 :  ['like', '8', 'mark', 'IN', 'like']
+
+7 :  ['it', '8', 'nsubj', 'PRP', 'it']
+
+8 :  ['does', '5', 'advcl', 'VBZ', 'do']
+
+9 :  ["n't", '8', 'neg', 'RB', 'not']
+
+10 :  ['.', '5', 'punct', '.', '.']
+
+Ellipsis at:  does
+
+{2: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{2: 2, 4: 0}
+
+After disfavouring complement clauses: 
+
+{2: 2, 4: 0}
+
+After looking at auxiliaries: 
+
+{2: 2, 4: 0}
+
+After backtracking up dependency tree: 
+
+{2: 2, 4: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 2, 4: 1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['If', 'it', 'hurts', ',', 'act', 'like', 'it', 'does', "n't", 'HURT', '.']
+
+Found verb:  ['hurts']
+
+=====
+
+
+
+=====
+Sometimes I feel like I know her and sometimes I don't.
+
+1 :  ['Sometimes', '3', 'advmod', 'RB', 'sometimes']
+
+2 :  ['I', '3', 'nsubj', 'PRP', 'I']
+
+3 :  ['feel', '0', 'ROOT', 'VBP', 'feel']
+
+4 :  ['like', '6', 'mark', 'IN', 'like']
+
+5 :  ['I', '6', 'nsubj', 'PRP', 'I']
+
+6 :  ['know', '3', 'advcl', 'VBP', 'know']
+
+7 :  ['her', '6', 'dobj', 'PRP', 'she']
+
+8 :  ['and', '3', 'cc', 'CC', 'and']
+
+9 :  ['sometimes', '11', 'advmod', 'RB', 'sometimes']
+
+10 :  ['I', '11', 'nsubj', 'PRP', 'I']
+
+11 :  ['do', '3', 'ccomp', 'VBP', 'do']
+
+12 :  ["n't", '11', 'neg', 'RB', 'not']
+
+13 :  ['.', '3', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{2: 0, 5: 0}
+
+After looking at noun subjects: 
+
+{2: 2, 5: 2}
+
+After disfavouring complement clauses: 
+
+{2: -1, 5: 2}
+
+After looking at auxiliaries: 
+
+{2: -1, 5: 2}
+
+After backtracking up dependency tree: 
+
+{2: 0, 5: 2}
+
+Disadvantaging backward gapping: 
+
+{2: 0, 5: 2}
+
+Main verb:  5
+
+Elliptical VP:  [5]
+
+Output sentence:  ['Sometimes', 'I', 'feel', 'like', 'I', 'know', 'her', 'and', 'sometimes', 'I', 'do', "n't", 'KNOW', '.']
+
+Found verb:  ['know']
+
+=====
+
+
+
+=====
+She wanted to introduce a nice man to me, but I couldn't.
+
+1 :  ['She', '2', 'nsubj', 'PRP', 'she']
+
+2 :  ['wanted', '0', 'ROOT', 'VBD', 'want']
+
+3 :  ['to', '4', 'mark', 'TO', 'to']
+
+4 :  ['introduce', '2', 'xcomp', 'VB', 'introduce']
+
+5 :  ['a', '7', 'det', 'DT', 'a']
+
+6 :  ['nice', '7', 'amod', 'JJ', 'nice']
+
+7 :  ['man', '4', 'dobj', 'NN', 'man']
+
+8 :  ['to', '9', 'case', 'TO', 'to']
+
+9 :  ['me', '4', 'nmod', 'PRP', 'I']
+
+10 :  [',', '2', 'punct', ',', ',']
+
+11 :  ['but', '2', 'cc', 'CC', 'but']
+
+12 :  ['I', '13', 'nsubj', 'PRP', 'I']
+
+13 :  ['could', '2', 'conj', 'MD', 'could']
+
+14 :  ["n't", '13', 'neg', 'RB', 'not']
+
+15 :  ['.', '2', 'punct', '.', '.']
+
+Ellipsis at:  could
+
+{1: 0, 3: 0}
+
+After looking at noun subjects: 
+
+{1: 1, 3: 1}
+
+After disfavouring complement clauses: 
+
+{1: 1, 3: 1}
+
+After looking at auxiliaries: 
+
+{1: 1, 3: 1}
+
+After backtracking up dependency tree: 
+
+{1: 2, 3: 1}
+
+Disadvantaging backward gapping: 
+
+{1: 2, 3: 1}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['She', 'wanted', 'to', 'introduce', 'a', 'nice', 'man', 'to', 'me', ',', 'but', 'I', 'could', "n't", 'WANT', '.']
+
+Found verb:  ['wanted']
+
+=====
+
+
+
+=====
+Does this tree look the same as before?
+
+1 :  ['Does', '0', 'ROOT', 'VBZ', 'do']
+
+2 :  ['this', '3', 'det', 'DT', 'this']
+
+3 :  ['tree', '1', 'nsubj', 'NN', 'tree']
+
+4 :  ['look', '1', 'dep', 'VB', 'look']
+
+5 :  ['the', '6', 'det', 'DT', 'the']
+
+6 :  ['same', '4', 'dobj', 'JJ', 'same']
+
+7 :  ['as', '4', 'advcl', 'IN', 'as']
+
+8 :  ['before', '7', 'dep', 'IN', 'before']
+
+9 :  ['?', '1', 'punct', '.', '?']
+
+Ellipsis at:  Does
+
+{3: 0}
+
+After looking at noun subjects: 
+
+{3: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0}
+
+After looking at auxiliaries: 
+
+{3: 0}
+
+After backtracking up dependency tree: 
+
+{3: 0}
+
+Disadvantaging backward gapping: 
+
+{3: -1}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['Does', 'LOOK', 'this', 'tree', 'look', 'the', 'same', 'as', 'before', '?']
+
+Found verb:  ['look']
+
+=====
+
+
+
+=====
+I did, but not to see auntie!
+
+1 :  ['I', '2', 'nsubj', 'PRP', 'I']
+
+2 :  ['did', '0', 'ROOT', 'VBD', 'do']
+
+3 :  [',', '2', 'punct', ',', ',']
+
+4 :  ['but', '2', 'cc', 'CC', 'but']
+
+5 :  ['not', '7', 'neg', 'RB', 'not']
+
+6 :  ['to', '7', 'mark', 'TO', 'to']
+
+7 :  ['see', '2', 'conj', 'VB', 'see']
+
+8 :  ['auntie', '7', 'dobj', 'NN', 'auntie']
+
+9 :  ['!', '2', 'punct', '.', '!']
+
+Ellipsis at:  did
+
+{6: 0}
+
+After looking at noun subjects: 
+
+{6: 2}
+
+After disfavouring complement clauses: 
+
+{6: 2}
+
+After looking at auxiliaries: 
+
+{6: 2}
+
+After backtracking up dependency tree: 
+
+{6: 2}
+
+Disadvantaging backward gapping: 
+
+{6: 1}
+
+Main verb:  6
+
+Elliptical VP:  [6]
+
+Output sentence:  ['I', 'did', 'SEE', ',', 'but', 'not', 'to', 'see', 'auntie', '!']
+
+Found verb:  ['see']
+
+=====
+
+
+
+=====
+would you believe that, too?
+
+1 :  ['would', '0', 'ROOT', 'MD', 'would']
+
+2 :  ['you', '1', 'dep', 'PRP', 'you']
+
+3 :  ['believe', '4', 'dep', 'VB', 'believe']
+
+4 :  ['that', '1', 'dep', 'IN', 'that']
+
+5 :  [',', '4', 'punct', ',', ',']
+
+6 :  ['too', '4', 'advmod', 'RB', 'too']
+
+7 :  ['?', '1', 'punct', '.', '?']
+
+Ellipsis at:  would
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 0}
+
+Disadvantaging backward gapping: 
+
+{2: -1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['would', 'BELIEVE', 'you', 'believe', 'that', ',', 'too', '?']
+
+Found verb:  ['believe']
+
+=====
+
+
+
+=====
+Then are you hitting on me?
+
+1 :  ['Then', '2', 'advmod', 'RB', 'then']
+
+2 :  ['are', '0', 'ROOT', 'VBP', 'be']
+
+3 :  ['you', '2', 'nsubj', 'PRP', 'you']
+
+4 :  ['hitting', '3', 'acl', 'VBG', 'hit']
+
+5 :  ['on', '6', 'case', 'IN', 'on']
+
+6 :  ['me', '4', 'nmod', 'PRP', 'I']
+
+7 :  ['?', '2', 'punct', '.', '?']
+
+Ellipsis at:  are
+
+{3: 0}
+
+After looking at noun subjects: 
+
+{3: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0}
+
+After looking at auxiliaries: 
+
+{3: 0}
+
+After backtracking up dependency tree: 
+
+{3: 0}
+
+Disadvantaging backward gapping: 
+
+{3: -1}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['Then', 'are', 'HITTING', 'you', 'hitting', 'on', 'me', '?']
+
+Found verb:  ['hitting']
+
+=====
+
+
+
+=====
+while watching her sleep like a baby, it may be forward, but this occurred to me.
+
+1 :  ['while', '2', 'mark', 'IN', 'while']
+
+2 :  ['watching', '11', 'advcl', 'VBG', 'watch']
+
+3 :  ['her', '4', 'nmod:poss', 'PRP$', 'she']
+
+4 :  ['sleep', '2', 'dobj', 'NN', 'sleep']
+
+5 :  ['like', '7', 'case', 'IN', 'like']
+
+6 :  ['a', '7', 'det', 'DT', 'a']
+
+7 :  ['baby', '2', 'nmod', 'NN', 'baby']
+
+8 :  [',', '11', 'punct', ',', ',']
+
+9 :  ['it', '11', 'nsubj', 'PRP', 'it']
+
+10 :  ['may', '11', 'aux', 'MD', 'may']
+
+11 :  ['be', '0', 'ROOT', 'VB', 'be']
+
+12 :  ['forward', '11', 'advmod', 'RB', 'forward']
+
+13 :  [',', '11', 'punct', ',', ',']
+
+14 :  ['but', '11', 'cc', 'CC', 'but']
+
+15 :  ['this', '16', 'nsubj', 'DT', 'this']
+
+16 :  ['occurred', '11', 'conj', 'VBD', 'occur']
+
+17 :  ['to', '18', 'case', 'TO', 'to']
+
+18 :  ['me', '16', 'nmod', 'PRP', 'I']
+
+19 :  ['.', '11', 'punct', '.', '.']
+
+Ellipsis at:  be
+
+{1: 0, 15: 0}
+
+After looking at noun subjects: 
+
+{1: 0}
+
+After disfavouring complement clauses: 
+
+{1: 0}
+
+After looking at auxiliaries: 
+
+{1: 0}
+
+After backtracking up dependency tree: 
+
+{1: 0}
+
+Disadvantaging backward gapping: 
+
+{1: 0}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['while', 'watching', 'her', 'sleep', 'like', 'a', 'baby', ',', 'it', 'may', 'be', 'WATCHING', 'forward', ',', 'but', 'this', 'occurred', 'to', 'me', '.']
+
+Found verb:  ['watching']
+
+=====
+
+
+
+=====
+So what are you gonna do?
+
+1 :  ['So', '5', 'advmod', 'RB', 'so']
+
+2 :  ['what', '5', 'dep', 'WP', 'what']
+
+3 :  ['are', '5', 'aux', 'VBP', 'be']
+
+4 :  ['you', '5', 'nsubj', 'PRP', 'you']
+
+5 :  ['gon', '0', 'ROOT', 'VBG', 'gon']
+
+6 :  ['na', '7', 'mark', 'TO', 'na']
+
+7 :  ['do', '5', 'xcomp', 'VB', 'do']
+
+8 :  ['?', '5', 'punct', '.', '?']
+
+Ellipsis at:  do
+
+{2: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{4: 2}
+
+After disfavouring complement clauses: 
+
+{4: -1}
+
+After looking at auxiliaries: 
+
+{4: -1}
+
+After backtracking up dependency tree: 
+
+{4: 0}
+
+Disadvantaging backward gapping: 
+
+{4: 0}
+
+Main verb:  4
+
+Elliptical VP:  [4]
+
+Output sentence:  ['So', 'what', 'are', 'you', 'gon', 'na', 'do', 'GON', '?']
+
+Found verb:  ['gon']
+
+=====
+
+
+
+=====
+Don't be a coward.
+
+1 :  ['Do', '5', 'aux', 'VBP', 'do']
+
+2 :  ["n't", '5', 'neg', 'RB', 'not']
+
+3 :  ['be', '5', 'cop', 'VB', 'be']
+
+4 :  ['a', '5', 'det', 'DT', 'a']
+
+5 :  ['coward', '0', 'ROOT', 'NN', 'coward']
+
+6 :  ['.', '5', 'punct', '.', '.']
+
+Ellipsis at:  Do
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 1}
+
+After backtracking up dependency tree: 
+
+{2: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Do', "n't", 'BE', 'be', 'a', 'coward', '.']
+
+Found verb:  ['be']
+
+=====
+
+
+
+=====
+But you know, she must have been an extraordinary girl.
+
+1 :  ['But', '11', 'cc', 'CC', 'but']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['know', '11', 'dep', 'VBP', 'know']
+
+4 :  [',', '11', 'punct', ',', ',']
+
+5 :  ['she', '11', 'nsubj', 'PRP', 'she']
+
+6 :  ['must', '11', 'aux', 'MD', 'must']
+
+7 :  ['have', '11', 'aux', 'VB', 'have']
+
+8 :  ['been', '11', 'cop', 'VBN', 'be']
+
+9 :  ['an', '11', 'det', 'DT', 'a']
+
+10 :  ['extraordinary', '11', 'amod', 'JJ', 'extraordinary']
+
+11 :  ['girl', '0', 'ROOT', 'NN', 'girl']
+
+12 :  ['.', '11', 'punct', '.', '.']
+
+Ellipsis at:  must
+
+{2: 0, 6: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{2: 0, 6: 0, 7: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0, 6: 0, 7: 0}
+
+After looking at auxiliaries: 
+
+{2: 0, 6: 0, 7: 1}
+
+After backtracking up dependency tree: 
+
+{2: 0, 6: 0, 7: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 0, 6: -1, 7: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['But', 'you', 'know', ',', 'she', 'must', 'KNOW', 'have', 'been', 'an', 'extraordinary', 'girl', '.']
+
+Ellipsis at:  have
+
+{2: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{2: 0, 7: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0, 7: 0}
+
+After looking at auxiliaries: 
+
+{2: 0, 7: 1}
+
+After backtracking up dependency tree: 
+
+{2: 0, 7: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 0, 7: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['But', 'you', 'know', ',', 'she', 'must', 'KNOW', 'have', 'KNOW', 'been', 'an', 'extraordinary', 'girl', '.']
+
+Found verb:  ['know']
+
+=====
+
+
+
+=====
+Can't I join us, can I?
+
+1 :  ['Ca', '4', 'aux', 'MD', 'can']
+
+2 :  ["n't", '4', 'neg', 'RB', 'not']
+
+3 :  ['I', '4', 'nsubj', 'PRP', 'I']
+
+4 :  ['join', '0', 'ROOT', 'VB', 'join']
+
+5 :  ['us', '4', 'dobj', 'PRP', 'we']
+
+6 :  [',', '4', 'punct', ',', ',']
+
+7 :  ['can', '4', 'dep', 'MD', 'can']
+
+8 :  ['I', '7', 'dep', 'PRP', 'I']
+
+9 :  ['?', '4', 'punct', '.', '?']
+
+Ellipsis at:  can
+
+{3: 0}
+
+After looking at noun subjects: 
+
+{3: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0}
+
+After looking at auxiliaries: 
+
+{3: 1}
+
+After backtracking up dependency tree: 
+
+{3: 2}
+
+Disadvantaging backward gapping: 
+
+{3: 2}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['Ca', "n't", 'I', 'join', 'us', ',', 'can', 'JOIN', 'I', '?']
+
+Found verb:  ['join']
+
+=====
+
+
+
+=====
+Gyeon-woo's Father:(smiling) Yes, I do.
+
+1 :  ['Gyeon-woo', '3', 'nmod:poss', 'NN', 'gyeon-woo']
+
+2 :  ["'s", '1', 'case', 'POS', "'s"]
+
+3 :  ['Father', '0', 'ROOT', 'NN', 'father']
+
+4 :  [':', '3', 'punct', ':', ':']
+
+5 :  ['-LRB-', '6', 'punct', '-LRB-', '-lrb-']
+
+6 :  ['smiling', '11', 'dep', 'VBG', 'smile']
+
+7 :  ['-RRB-', '6', 'punct', '-RRB-', '-rrb-']
+
+8 :  ['Yes', '11', 'discourse', 'UH', 'yes']
+
+9 :  [',', '11', 'punct', ',', ',']
+
+10 :  ['I', '11', 'nsubj', 'PRP', 'I']
+
+11 :  ['do', '3', 'dep', 'VBP', 'do']
+
+12 :  ['.', '3', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{5: 0}
+
+After looking at noun subjects: 
+
+{5: 0}
+
+After disfavouring complement clauses: 
+
+{5: 0}
+
+After looking at auxiliaries: 
+
+{5: 0}
+
+After backtracking up dependency tree: 
+
+{5: 0}
+
+Disadvantaging backward gapping: 
+
+{5: 0}
+
+Main verb:  5
+
+Elliptical VP:  [5]
+
+Output sentence:  ['Gyeon-woo', "'s", 'Father', ':', '-LRB-', 'smiling', '-RRB-', 'Yes', ',', 'I', 'do', 'SMILE', '.']
+
+Found verb:  ['smiling']
+
+=====
+
+
+
+=====
+If I prepare nothing, she may murder me.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['I', '3', 'nsubj', 'PRP', 'I']
+
+3 :  ['prepare', '8', 'advcl', 'VBP', 'prepare']
+
+4 :  ['nothing', '3', 'dobj', 'NN', 'nothing']
+
+5 :  [',', '8', 'punct', ',', ',']
+
+6 :  ['she', '8', 'nsubj', 'PRP', 'she']
+
+7 :  ['may', '8', 'aux', 'MD', 'may']
+
+8 :  ['murder', '0', 'ROOT', 'NN', 'murder']
+
+9 :  ['me', '8', 'dobj', 'PRP', 'I']
+
+10 :  ['.', '8', 'punct', '.', '.']
+
+Ellipsis at:  may
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 0}
+
+Disadvantaging backward gapping: 
+
+{2: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['If', 'I', 'prepare', 'nothing', ',', 'she', 'may', 'PREPARE', 'murder', 'me', '.']
+
+Found verb:  ['prepare']
+
+=====
+
+
+
+=====
+You mean she could be my pussy?
+
+1 :  ['You', '2', 'nsubj', 'PRP', 'you']
+
+2 :  ['mean', '0', 'ROOT', 'VBP', 'mean']
+
+3 :  ['she', '7', 'nsubj', 'PRP', 'she']
+
+4 :  ['could', '7', 'aux', 'MD', 'could']
+
+5 :  ['be', '7', 'cop', 'VB', 'be']
+
+6 :  ['my', '7', 'nmod:poss', 'PRP$', 'my']
+
+7 :  ['pussy', '2', 'ccomp', 'NN', 'pussy']
+
+8 :  ['?', '2', 'punct', '.', '?']
+
+Ellipsis at:  could
+
+{1: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{1: 0, 4: 0}
+
+After disfavouring complement clauses: 
+
+{1: 0, 4: 0}
+
+After looking at auxiliaries: 
+
+{1: 0, 4: 1}
+
+After backtracking up dependency tree: 
+
+{1: 1, 4: 1}
+
+Disadvantaging backward gapping: 
+
+{1: 1, 4: 0}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['You', 'mean', 'she', 'could', 'MEAN', 'be', 'my', 'pussy', '?']
+
+Found verb:  ['mean']
+
+=====
+
+
+
+=====
+That's why don't be foolish.
+
+1 :  ['That', '2', 'nsubj', 'DT', 'that']
+
+2 :  ["'s", '0', 'ROOT', 'VBZ', 'be']
+
+3 :  ['why', '7', 'advmod', 'WRB', 'why']
+
+4 :  ['do', '7', 'aux', 'VBP', 'do']
+
+5 :  ["n't", '7', 'neg', 'RB', 'not']
+
+6 :  ['be', '7', 'cop', 'VB', 'be']
+
+7 :  ['foolish', '2', 'advcl', 'JJ', 'foolish']
+
+8 :  ['.', '2', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{1: 0, 5: 0}
+
+After looking at noun subjects: 
+
+{5: 0}
+
+After disfavouring complement clauses: 
+
+{5: 0}
+
+After looking at auxiliaries: 
+
+{5: 1}
+
+After backtracking up dependency tree: 
+
+{5: 1}
+
+Disadvantaging backward gapping: 
+
+{5: 0}
+
+Main verb:  5
+
+Elliptical VP:  [5]
+
+Output sentence:  ['That', "'s", 'why', 'do', "n't", 'BE', 'be', 'foolish', '.']
+
+Found verb:  ['be']
+
+=====
+
+
+
+=====
+What does 'can' mean?
+
+1 :  ['What', '4', 'nsubj', 'WP', 'what']
+
+2 :  ['does', '4', 'aux', 'VBZ', 'do']
+
+3 :  ['`', '4', 'punct', '``', '`']
+
+4 :  ['can', '0', 'ROOT', 'MD', 'can']
+
+5 :  ["'", '4', 'punct', "''", "'"]
+
+6 :  ['mean', '4', 'dep', 'VB', 'mean']
+
+7 :  ['?', '4', 'punct', '.', '?']
+
+Ellipsis at:  does
+
+{5: 0}
+
+After looking at noun subjects: 
+
+{5: 0}
+
+After disfavouring complement clauses: 
+
+{5: 0}
+
+After looking at auxiliaries: 
+
+{5: 0}
+
+After backtracking up dependency tree: 
+
+{5: 0}
+
+Disadvantaging backward gapping: 
+
+{5: -1}
+
+Main verb:  5
+
+Elliptical VP:  [5]
+
+Output sentence:  ['What', 'does', 'MEAN', '`', 'can', "'", 'mean', '?']
+
+Ellipsis at:  can
+
+{1: 0, 5: 0}
+
+After looking at noun subjects: 
+
+{1: 0, 5: 0}
+
+After disfavouring complement clauses: 
+
+{1: 0, 5: 0}
+
+After looking at auxiliaries: 
+
+{1: 0, 5: 0}
+
+After backtracking up dependency tree: 
+
+{1: 0, 5: 0}
+
+Disadvantaging backward gapping: 
+
+{1: 0, 5: -1}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['What', 'does', 'MEAN', '`', 'can', 'DO', "'", 'mean', '?']
+
+Found verb:  ['does']
+
+=====
+
+
+
+=====
+I think you didn't.
+
+1 :  ['I', '2', 'nsubj', 'PRP', 'I']
+
+2 :  ['think', '0', 'ROOT', 'VBP', 'think']
+
+3 :  ['you', '4', 'nsubj', 'PRP', 'you']
+
+4 :  ['did', '2', 'ccomp', 'VBD', 'do']
+
+5 :  ["n't", '4', 'neg', 'RB', 'not']
+
+6 :  ['.', '2', 'punct', '.', '.']
+
+Ellipsis at:  did
+
+{1: 0}
+
+After looking at noun subjects: 
+
+{1: 1}
+
+After disfavouring complement clauses: 
+
+{1: -2}
+
+After looking at auxiliaries: 
+
+{1: -2}
+
+After backtracking up dependency tree: 
+
+{1: -1}
+
+Disadvantaging backward gapping: 
+
+{1: -1}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['I', 'think', 'you', 'did', "n't", 'THINK', '.']
+
+Found verb:  ['think']
+
+=====
+
+
+
+=====
+If you do, I'II take her.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '8', 'advcl', 'VBP', 'do']
+
+4 :  [',', '8', 'punct', ',', ',']
+
+5 :  ['I', '8', 'dep', 'PRP', 'I']
+
+6 :  ['`', '8', 'punct', '``', '`']
+
+7 :  ['II', '8', 'nsubj', 'CD', 'ii']
+
+8 :  ['take', '0', 'ROOT', 'VB', 'take']
+
+9 :  ['her', '8', 'dobj', 'PRP', 'she']
+
+10 :  ['.', '8', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{7: 0}
+
+After looking at noun subjects: 
+
+{7: 1}
+
+After disfavouring complement clauses: 
+
+{7: 1}
+
+After looking at auxiliaries: 
+
+{7: 1}
+
+After backtracking up dependency tree: 
+
+{7: 2}
+
+Disadvantaging backward gapping: 
+
+{7: 1}
+
+Main verb:  7
+
+Elliptical VP:  [7]
+
+Output sentence:  ['If', 'you', 'do', 'TAKE', ',', 'I', '`', 'II', 'take', 'her', '.']
+
+Found verb:  ['take']
+
+=====
+
+
+
+=====
+If you do, ask him to take you.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '5', 'advcl', 'VBP', 'do']
+
+4 :  [',', '5', 'punct', ',', ',']
+
+5 :  ['ask', '0', 'ROOT', 'VBP', 'ask']
+
+6 :  ['him', '5', 'dobj', 'PRP', 'he']
+
+7 :  ['to', '8', 'mark', 'TO', 'to']
+
+8 :  ['take', '5', 'xcomp', 'VB', 'take']
+
+9 :  ['you', '8', 'dobj', 'PRP', 'you']
+
+10 :  ['.', '5', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{4: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{4: 0, 7: 0}
+
+After disfavouring complement clauses: 
+
+{4: 0, 7: 0}
+
+After looking at auxiliaries: 
+
+{4: 0, 7: 0}
+
+After backtracking up dependency tree: 
+
+{4: 1, 7: 0}
+
+Disadvantaging backward gapping: 
+
+{4: 0, 7: -1}
+
+Main verb:  4
+
+Elliptical VP:  [4]
+
+Output sentence:  ['If', 'you', 'do', 'ASK', ',', 'ask', 'him', 'to', 'take', 'you', '.']
+
+Found verb:  ['ask']
+
+=====
+
+
+
+=====
+If you don't, I'II kill you!
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '9', 'advcl', 'VBP', 'do']
+
+4 :  ["n't", '3', 'neg', 'RB', 'not']
+
+5 :  [',', '9', 'punct', ',', ',']
+
+6 :  ['I', '9', 'dep', 'PRP', 'I']
+
+7 :  ['`', '9', 'punct', '``', '`']
+
+8 :  ['II', '9', 'nsubj', 'CD', 'ii']
+
+9 :  ['kill', '0', 'ROOT', 'VBP', 'kill']
+
+10 :  ['you', '9', 'dobj', 'PRP', 'you']
+
+11 :  ['!', '9', 'punct', '.', '!']
+
+Ellipsis at:  do
+
+{8: 0}
+
+After looking at noun subjects: 
+
+{8: 1}
+
+After disfavouring complement clauses: 
+
+{8: 1}
+
+After looking at auxiliaries: 
+
+{8: 1}
+
+After backtracking up dependency tree: 
+
+{8: 2}
+
+Disadvantaging backward gapping: 
+
+{8: 1}
+
+Main verb:  8
+
+Elliptical VP:  [8]
+
+Output sentence:  ['If', 'you', 'do', "n't", 'KILL', ',', 'I', '`', 'II', 'kill', 'you', '!']
+
+Found verb:  ['kill']
+
+=====
+
+
+
+=====
+I had my eyes closed.
+
+1 :  ['I', '2', 'nsubj', 'PRP', 'I']
+
+2 :  ['had', '0', 'ROOT', 'VBD', 'have']
+
+3 :  ['my', '4', 'nmod:poss', 'PRP$', 'my']
+
+4 :  ['eyes', '5', 'nsubj', 'NNS', 'eye']
+
+5 :  ['closed', '2', 'ccomp', 'VBD', 'close']
+
+6 :  ['.', '2', 'punct', '.', '.']
+
+Ellipsis at:  had
+
+{4: 0}
+
+After looking at noun subjects: 
+
+{4: 0}
+
+After disfavouring complement clauses: 
+
+{4: 0}
+
+After looking at auxiliaries: 
+
+{4: 0}
+
+After backtracking up dependency tree: 
+
+{4: 0}
+
+Disadvantaging backward gapping: 
+
+{4: -1}
+
+Main verb:  4
+
+Elliptical VP:  [4]
+
+Output sentence:  ['I', 'had', 'CLOSED', 'my', 'eyes', 'closed', '.']
+
+Found verb:  ['closed']
+
+=====
+
+
+
+=====
+If you don't, I'II kill you.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['you', '3', 'nsubj', 'PRP', 'you']
+
+3 :  ['do', '9', 'advcl', 'VBP', 'do']
+
+4 :  ["n't", '3', 'neg', 'RB', 'not']
+
+5 :  [',', '9', 'punct', ',', ',']
+
+6 :  ['I', '9', 'dep', 'PRP', 'I']
+
+7 :  ['`', '9', 'punct', '``', '`']
+
+8 :  ['II', '9', 'nsubj', 'CD', 'ii']
+
+9 :  ['kill', '0', 'ROOT', 'VBP', 'kill']
+
+10 :  ['you', '9', 'dobj', 'PRP', 'you']
+
+11 :  ['.', '9', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{8: 0}
+
+After looking at noun subjects: 
+
+{8: 1}
+
+After disfavouring complement clauses: 
+
+{8: 1}
+
+After looking at auxiliaries: 
+
+{8: 1}
+
+After backtracking up dependency tree: 
+
+{8: 2}
+
+Disadvantaging backward gapping: 
+
+{8: 1}
+
+Main verb:  8
+
+Elliptical VP:  [8]
+
+Output sentence:  ['If', 'you', 'do', "n't", 'KILL', ',', 'I', '`', 'II', 'kill', 'you', '.']
+
+Found verb:  ['kill']
+
+=====
+
+
+
+=====
+What has gotten in to you?
+
+1 :  ['What', '3', 'nsubj', 'WDT', 'what']
+
+2 :  ['has', '3', 'dep', 'VBZ', 'have']
+
+3 :  ['gotten', '0', 'ROOT', 'VBN', 'get']
+
+4 :  ['in', '3', 'compound:prt', 'IN', 'in']
+
+5 :  ['to', '6', 'case', 'TO', 'to']
+
+6 :  ['you', '3', 'nmod', 'PRP', 'you']
+
+7 :  ['?', '3', 'punct', '.', '?']
+
+Ellipsis at:  has
+
+{2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2, 3]
+
+Output sentence:  ['What', 'has', 'GOTTEN', 'IN', 'gotten', 'in', 'to', 'you', '?']
+
+Found verb:  ['gotten', 'in']
+
+=====
+
+
+
+=====
+The prettiest is when she's playing the piano.
+
+1 :  ['The', '2', 'det', 'DT', 'the']
+
+2 :  ['prettiest', '3', 'nsubj', 'JJS', 'prettiest']
+
+3 :  ['is', '0', 'ROOT', 'VBZ', 'be']
+
+4 :  ['when', '7', 'advmod', 'WRB', 'when']
+
+5 :  ['she', '7', 'nsubj', 'PRP', 'she']
+
+6 :  ["'s", '7', 'aux', 'VBZ', 'be']
+
+7 :  ['playing', '3', 'advcl', 'VBG', 'play']
+
+8 :  ['the', '9', 'det', 'DT', 'the']
+
+9 :  ['piano', '7', 'dobj', 'NN', 'piano']
+
+10 :  ['.', '3', 'punct', '.', '.']
+
+Ellipsis at:  is
+
+{5: 0, 6: 0}
+
+After looking at noun subjects: 
+
+{6: 0}
+
+After disfavouring complement clauses: 
+
+{6: 0}
+
+After looking at auxiliaries: 
+
+{6: 0}
+
+After backtracking up dependency tree: 
+
+{6: 0}
+
+Disadvantaging backward gapping: 
+
+{6: -1}
+
+Main verb:  6
+
+Elliptical VP:  [6]
+
+Output sentence:  ['The', 'prettiest', 'is', 'PLAYING', 'when', 'she', "'s", 'playing', 'the', 'piano', '.']
+
+Found verb:  ['playing']
+
+=====
+
+
+
+=====
+What are we supposed to do if caught by teacher.
+
+1 :  ['What', '4', 'dep', 'WP', 'what']
+
+2 :  ['are', '4', 'auxpass', 'VBP', 'be']
+
+3 :  ['we', '4', 'nsubjpass', 'PRP', 'we']
+
+4 :  ['supposed', '0', 'ROOT', 'VBN', 'suppose']
+
+5 :  ['to', '6', 'mark', 'TO', 'to']
+
+6 :  ['do', '4', 'xcomp', 'VB', 'do']
+
+7 :  ['if', '8', 'mark', 'IN', 'if']
+
+8 :  ['caught', '6', 'advcl', 'VBN', 'catch']
+
+9 :  ['by', '10', 'case', 'IN', 'by']
+
+10 :  ['teacher', '8', 'nmod', 'NN', 'teacher']
+
+11 :  ['.', '4', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{1: 0, 3: 0, 7: 0}
+
+After looking at noun subjects: 
+
+{3: 2, 7: 0}
+
+After disfavouring complement clauses: 
+
+{3: -1, 7: 0}
+
+After looking at auxiliaries: 
+
+{3: -1, 7: 0}
+
+After backtracking up dependency tree: 
+
+{3: 0, 7: 0}
+
+Disadvantaging backward gapping: 
+
+{3: 0, 7: -1}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['What', 'are', 'we', 'supposed', 'to', 'do', 'SUPPOSE', 'if', 'caught', 'by', 'teacher', '.']
+
+Found verb:  ['supposed']
+
+=====
+
+
+
+=====
+Can I see what's in your pocket?
+
+1 :  ['Can', '0', 'ROOT', 'MD', 'can']
+
+2 :  ['I', '1', 'dep', 'PRP', 'I']
+
+3 :  ['see', '8', 'dep', 'VB', 'see']
+
+4 :  ['what', '8', 'nsubj', 'WP', 'what']
+
+5 :  ["'s", '8', 'cop', 'VBZ', 'be']
+
+6 :  ['in', '8', 'case', 'IN', 'in']
+
+7 :  ['your', '8', 'nmod:poss', 'PRP$', 'you']
+
+8 :  ['pocket', '1', 'dep', 'NN', 'pocket']
+
+9 :  ['?', '1', 'punct', '.', '?']
+
+Ellipsis at:  Can
+
+{2: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 0}
+
+After backtracking up dependency tree: 
+
+{2: 0}
+
+Disadvantaging backward gapping: 
+
+{2: -1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Can', 'SEE', 'I', 'see', 'what', "'s", 'in', 'your', 'pocket', '?']
+
+Found verb:  ['see']
+
+=====
+
+
+
+=====
+Doesn't look bad guy, does he?
+
+1 :  ['Does', '3', 'aux', 'VBZ', 'do']
+
+2 :  ["n't", '3', 'neg', 'RB', 'not']
+
+3 :  ['look', '7', 'dep', 'VB', 'look']
+
+4 :  ['bad', '5', 'amod', 'JJ', 'bad']
+
+5 :  ['guy', '3', 'dobj', 'NN', 'guy']
+
+6 :  [',', '7', 'punct', ',', ',']
+
+7 :  ['does', '0', 'ROOT', 'VBZ', 'do']
+
+8 :  ['he', '7', 'nsubj', 'PRP', 'he']
+
+9 :  ['?', '7', 'punct', '.', '?']
+
+Ellipsis at:  does
+
+{0: 0, 2: 0}
+
+After looking at noun subjects: 
+
+{2: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0}
+
+After looking at auxiliaries: 
+
+{2: 1}
+
+After backtracking up dependency tree: 
+
+{2: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Does', "n't", 'look', 'bad', 'guy', ',', 'does', 'LOOK', 'he', '?']
+
+Found verb:  ['look']
+
+=====
+
+
+
+=====
+If it hurts, act like it doesn't.
+
+1 :  ['If', '3', 'mark', 'IN', 'if']
+
+2 :  ['it', '3', 'nsubj', 'PRP', 'it']
+
+3 :  ['hurts', '5', 'advcl', 'VBZ', 'hurt']
+
+4 :  [',', '5', 'punct', ',', ',']
+
+5 :  ['act', '0', 'ROOT', 'VBP', 'act']
+
+6 :  ['like', '8', 'mark', 'IN', 'like']
+
+7 :  ['it', '8', 'nsubj', 'PRP', 'it']
+
+8 :  ['does', '5', 'advcl', 'VBZ', 'do']
+
+9 :  ["n't", '8', 'neg', 'RB', 'not']
+
+10 :  ['.', '5', 'punct', '.', '.']
+
+Ellipsis at:  does
+
+{2: 0, 4: 0}
+
+After looking at noun subjects: 
+
+{2: 2, 4: 0}
+
+After disfavouring complement clauses: 
+
+{2: 2, 4: 0}
+
+After looking at auxiliaries: 
+
+{2: 2, 4: 0}
+
+After backtracking up dependency tree: 
+
+{2: 2, 4: 1}
+
+Disadvantaging backward gapping: 
+
+{2: 2, 4: 1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['If', 'it', 'hurts', ',', 'act', 'like', 'it', 'does', "n't", 'HURT', '.']
+
+Found verb:  ['hurts']
+
+=====
+
+
+
+=====
+Gyeon-woo:(MonoIog) Sometimes I feel like I know her and sometimes I don't.
+
+1 :  ['Gyeon-woo', '8', 'nsubj', 'NN', 'gyeon-woo']
+
+2 :  [':', '1', 'punct', ':', ':']
+
+3 :  ['-LRB-', '4', 'punct', '-LRB-', '-lrb-']
+
+4 :  ['MonoIog', '1', 'appos', 'NN', 'monoiog']
+
+5 :  ['-RRB-', '4', 'punct', '-RRB-', '-rrb-']
+
+6 :  ['Sometimes', '8', 'advmod', 'RB', 'sometimes']
+
+7 :  ['I', '8', 'nsubj', 'PRP', 'I']
+
+8 :  ['feel', '0', 'ROOT', 'VBP', 'feel']
+
+9 :  ['like', '11', 'mark', 'IN', 'like']
+
+10 :  ['I', '11', 'nsubj', 'PRP', 'I']
+
+11 :  ['know', '8', 'advcl', 'VBP', 'know']
+
+12 :  ['her', '11', 'dobj', 'PRP', 'she']
+
+13 :  ['and', '8', 'cc', 'CC', 'and']
+
+14 :  ['sometimes', '16', 'advmod', 'RB', 'sometimes']
+
+15 :  ['I', '16', 'nsubj', 'PRP', 'I']
+
+16 :  ['do', '8', 'conj', 'VBP', 'do']
+
+17 :  ["n't", '16', 'neg', 'RB', 'not']
+
+18 :  ['.', '8', 'punct', '.', '.']
+
+Ellipsis at:  do
+
+{7: 0, 10: 0}
+
+After looking at noun subjects: 
+
+{7: 2, 10: 2}
+
+After disfavouring complement clauses: 
+
+{7: 2, 10: 2}
+
+After looking at auxiliaries: 
+
+{7: 2, 10: 2}
+
+After backtracking up dependency tree: 
+
+{7: 3, 10: 2}
+
+Disadvantaging backward gapping: 
+
+{7: 3, 10: 2}
+
+Main verb:  7
+
+Elliptical VP:  [7]
+
+Output sentence:  ['Gyeon-woo', ':', '-LRB-', 'MonoIog', '-RRB-', 'Sometimes', 'I', 'feel', 'like', 'I', 'know', 'her', 'and', 'sometimes', 'I', 'do', "n't", 'FEEL', '.']
+
+Found verb:  ['feel']
+
+=====
+
+
+
+=====
+She wanted to introduce a nice man to me, but I couldn't.
+
+1 :  ['She', '2', 'nsubj', 'PRP', 'she']
+
+2 :  ['wanted', '0', 'ROOT', 'VBD', 'want']
+
+3 :  ['to', '4', 'mark', 'TO', 'to']
+
+4 :  ['introduce', '2', 'xcomp', 'VB', 'introduce']
+
+5 :  ['a', '7', 'det', 'DT', 'a']
+
+6 :  ['nice', '7', 'amod', 'JJ', 'nice']
+
+7 :  ['man', '4', 'dobj', 'NN', 'man']
+
+8 :  ['to', '9', 'case', 'TO', 'to']
+
+9 :  ['me', '4', 'nmod', 'PRP', 'I']
+
+10 :  [',', '2', 'punct', ',', ',']
+
+11 :  ['but', '2', 'cc', 'CC', 'but']
+
+12 :  ['I', '13', 'nsubj', 'PRP', 'I']
+
+13 :  ['could', '2', 'conj', 'MD', 'could']
+
+14 :  ["n't", '13', 'neg', 'RB', 'not']
+
+15 :  ['.', '2', 'punct', '.', '.']
+
+Ellipsis at:  could
+
+{1: 0, 3: 0}
+
+After looking at noun subjects: 
+
+{1: 1, 3: 1}
+
+After disfavouring complement clauses: 
+
+{1: 1, 3: 1}
+
+After looking at auxiliaries: 
+
+{1: 1, 3: 1}
+
+After backtracking up dependency tree: 
+
+{1: 2, 3: 1}
+
+Disadvantaging backward gapping: 
+
+{1: 2, 3: 1}
+
+Main verb:  1
+
+Elliptical VP:  [1]
+
+Output sentence:  ['She', 'wanted', 'to', 'introduce', 'a', 'nice', 'man', 'to', 'me', ',', 'but', 'I', 'could', "n't", 'WANT', '.']
+
+Found verb:  ['wanted']
+
+=====
+
+
+
+=====
+Does this tree look the same as before?
+
+1 :  ['Does', '0', 'ROOT', 'VBZ', 'do']
+
+2 :  ['this', '3', 'det', 'DT', 'this']
+
+3 :  ['tree', '1', 'nsubj', 'NN', 'tree']
+
+4 :  ['look', '1', 'dep', 'VB', 'look']
+
+5 :  ['the', '6', 'det', 'DT', 'the']
+
+6 :  ['same', '4', 'dobj', 'JJ', 'same']
+
+7 :  ['as', '4', 'advcl', 'IN', 'as']
+
+8 :  ['before', '7', 'dep', 'IN', 'before']
+
+9 :  ['?', '1', 'punct', '.', '?']
+
+Ellipsis at:  Does
+
+{3: 0}
+
+After looking at noun subjects: 
+
+{3: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0}
+
+After looking at auxiliaries: 
+
+{3: 0}
+
+After backtracking up dependency tree: 
+
+{3: 0}
+
+Disadvantaging backward gapping: 
+
+{3: -1}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['Does', 'LOOK', 'this', 'tree', 'look', 'the', 'same', 'as', 'before', '?']
+
+Found verb:  ['look']
+
+=====
+
+
+
+=====
+I... won't make it
+
+1 :  ['I.', '0', 'ROOT', 'NN', 'i.']
+
+2 :  ['.', '1', 'punct', '.', '.']
+
+3 :  ['.', '0', 'ROOT', '.', '.']
+
+4 :  ['wo', '3', 'aux', 'MD', 'will']
+
+5 :  ["n't", '3', 'neg', 'RB', 'not']
+
+6 :  ['make', '0', 'ROOT', 'VB', 'make']
+
+7 :  ['it', '3', 'dobj', 'PRP', 'it']
+
+Ellipsis at:  wo
+
+{5: 0}
+
+After looking at noun subjects: 
+
+{5: 0}
+
+After disfavouring complement clauses: 
+
+{5: 0}
+
+After looking at auxiliaries: 
+
+{5: 0}
+
+After backtracking up dependency tree: 
+
+{5: 0}
+
+Disadvantaging backward gapping: 
+
+{5: -1}
+
+Main verb:  5
+
+Elliptical VP:  [5]
+
+Output sentence:  ['I.', '.', '.', 'wo', "n't", 'MAKE', 'make', 'it']
+
+Found verb:  ['make']
+
+=====
+
+
+
+=====
+Doesn't look like chest pain, could be asthma!
+
+1 :  ['Does', '3', 'aux', 'VBZ', 'do']
+
+2 :  ["n't", '3', 'neg', 'RB', 'not']
+
+3 :  ['look', '10', 'ccomp', 'VB', 'look']
+
+4 :  ['like', '6', 'case', 'IN', 'like']
+
+5 :  ['chest', '6', 'compound', 'NN', 'chest']
+
+6 :  ['pain', '3', 'nmod', 'NN', 'pain']
+
+7 :  [',', '10', 'punct', ',', ',']
+
+8 :  ['could', '10', 'aux', 'MD', 'could']
+
+9 :  ['be', '10', 'cop', 'VB', 'be']
+
+10 :  ['asthma', '0', 'ROOT', 'NN', 'asthma']
+
+11 :  ['!', '10', 'punct', '.', '!']
+
+Ellipsis at:  could
+
+{0: 0, 2: 0, 8: 0}
+
+After looking at noun subjects: 
+
+{0: 0, 2: 0, 8: 0}
+
+After disfavouring complement clauses: 
+
+{0: 0, 2: 0, 8: 0}
+
+After looking at auxiliaries: 
+
+{0: 0, 2: 0, 8: 1}
+
+After backtracking up dependency tree: 
+
+{0: 0, 2: 0, 8: 1}
+
+Disadvantaging backward gapping: 
+
+{0: 0, 2: 0, 8: 0}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Does', "n't", 'look', 'like', 'chest', 'pain', ',', 'could', 'LOOK', 'be', 'asthma', '!']
+
+Found verb:  ['look']
+
+=====
+
+
+
+=====
+We'll have it wrapped to go
+
+1 :  ['We', '3', 'nsubj', 'PRP', 'we']
+
+2 :  ["'ll", '3', 'aux', 'MD', 'will']
+
+3 :  ['have', '0', 'ROOT', 'VB', 'have']
+
+4 :  ['it', '5', 'nsubj', 'PRP', 'it']
+
+5 :  ['wrapped', '3', 'ccomp', 'VBD', 'wrap']
+
+6 :  ['to', '7', 'mark', 'TO', 'to']
+
+7 :  ['go', '5', 'xcomp', 'VB', 'go']
+
+Ellipsis at:  have
+
+{4: 0, 6: 0}
+
+After looking at noun subjects: 
+
+{4: 0, 6: 0}
+
+After disfavouring complement clauses: 
+
+{4: 0, 6: 0}
+
+After looking at auxiliaries: 
+
+{4: 0, 6: 0}
+
+After backtracking up dependency tree: 
+
+{4: 0, 6: 0}
+
+Disadvantaging backward gapping: 
+
+{4: -1, 6: -1}
+
+Main verb:  6
+
+Elliptical VP:  [6]
+
+Output sentence:  ['We', "'ll", 'have', 'GO', 'it', 'wrapped', 'to', 'go']
+
+Found verb:  ['go']
+
+=====
+
+
+
+=====
+Okay, who do you have in mind?
+
+1 :  ['Okay', '6', 'discourse', 'UH', 'okay']
+
+2 :  [',', '6', 'punct', ',', ',']
+
+3 :  ['who', '6', 'dobj', 'WP', 'who']
+
+4 :  ['do', '6', 'aux', 'VBP', 'do']
+
+5 :  ['you', '6', 'nsubj', 'PRP', 'you']
+
+6 :  ['have', '0', 'ROOT', 'VB', 'have']
+
+7 :  ['in', '8', 'case', 'IN', 'in']
+
+8 :  ['mind', '6', 'nmod', 'NN', 'mind']
+
+9 :  ['?', '6', 'punct', '.', '?']
+
+Ellipsis at:  have
+
+{3: 0}
+
+After looking at noun subjects: 
+
+{3: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0}
+
+After looking at auxiliaries: 
+
+{3: 0}
+
+After backtracking up dependency tree: 
+
+{3: 0}
+
+Disadvantaging backward gapping: 
+
+{3: 0}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['Okay', ',', 'who', 'do', 'you', 'have', 'DO', 'in', 'mind', '?']
+
+Found verb:  ['do']
+
+=====
+
+
+
+=====
+Don't be so cold, help me out here!
+
+1 :  ['Do', '5', 'aux', 'VBP', 'do']
+
+2 :  ["n't", '5', 'neg', 'RB', 'not']
+
+3 :  ['be', '5', 'cop', 'VB', 'be']
+
+4 :  ['so', '5', 'advmod', 'RB', 'so']
+
+5 :  ['cold', '0', 'ROOT', 'JJ', 'cold']
+
+6 :  [',', '5', 'punct', ',', ',']
+
+7 :  ['help', '5', 'dep', 'VB', 'help']
+
+8 :  ['me', '7', 'dobj', 'PRP', 'I']
+
+9 :  ['out', '7', 'compound:prt', 'RP', 'out']
+
+10 :  ['here', '7', 'advmod', 'RB', 'here']
+
+11 :  ['!', '5', 'punct', '.', '!']
+
+Ellipsis at:  Do
+
+{2: 0, 6: 0}
+
+After looking at noun subjects: 
+
+{2: 0, 6: 0}
+
+After disfavouring complement clauses: 
+
+{2: 0, 6: 0}
+
+After looking at auxiliaries: 
+
+{2: 1, 6: 0}
+
+After backtracking up dependency tree: 
+
+{2: 1, 6: 0}
+
+Disadvantaging backward gapping: 
+
+{2: 0, 6: -1}
+
+Main verb:  2
+
+Elliptical VP:  [2]
+
+Output sentence:  ['Do', "n't", 'BE', 'be', 'so', 'cold', ',', 'help', 'me', 'out', 'here', '!']
+
+Found verb:  ['be']
+
+=====
+
+
+
+=====
+Her life will be meaningless1
+
+1 :  ['Her', '2', 'nmod:poss', 'PRP$', 'she']
+
+2 :  ['life', '5', 'nsubj', 'NN', 'life']
+
+3 :  ['will', '5', 'aux', 'MD', 'will']
+
+4 :  ['be', '5', 'cop', 'VB', 'be']
+
+5 :  ['meaningless1', '0', 'ROOT', 'NN', 'meaningless1']
+
+Ellipsis at:  will
+
+{3: 0}
+
+After looking at noun subjects: 
+
+{3: 0}
+
+After disfavouring complement clauses: 
+
+{3: 0}
+
+After looking at auxiliaries: 
+
+{3: 1}
+
+After backtracking up dependency tree: 
+
+{3: 1}
+
+Disadvantaging backward gapping: 
+
+{3: 0}
+
+Main verb:  3
+
+Elliptical VP:  [3]
+
+Output sentence:  ['Her', 'life', 'will', 'BE', 'be', 'meaningless1']
+
+Found verb:  ['be']
+
+=====
+
+
+
+=====
+Don't laugh at what I'm about to say
+
+1 :  ['Do', '3', 'aux', 'VBP', 'do']
+
+2 :  ["n't", '3', 'neg', 'RB', 'not']
+
+3 :  ['laugh', '0', 'ROOT', 'NN', 'laugh']
+
+4 :  ['at', '8', 'mark', 'IN', 'at']
+
+5 :  ['what', '10', 'dobj', 'WP', 'what']
+
+6 :  ['I', '8', 'nsubj', 'PRP', 'I']
+
+7 :  ["'m", '8', 'aux', 'VBP', 'be']
+
+8 :  ['about', '3', 'advcl', 'IN', 'about']
+
+9 :  ['to', '10', 'mark', 'TO', 'to']
+
+10 :  ['say', '8', 'xcomp', 'VB', 'say']
+
+Ellipsis at:  Do
+
+{6: 0, 9: 0}
+
+After looking at noun subjects: 
+
+{9: 0}
+
+After disfavouring complement clauses: 
+
+{9: -3}
+
+After looking at auxiliaries: 
+
+{9: -3}
+
+After backtracking up dependency tree: 
+
+{9: -3}
+
+Disadvantaging backward gapping: 
+
+{9: -4}
+
+Main verb:  9
+
+Elliptical VP:  [9]
+
+Output sentence:  ['Do', "n't", 'SAY', 'laugh', 'at', 'what', 'I', "'m", 'about', 'to', 'say']
+
+Found verb:  ['say']
+
+=====
+
+
+Total 144 instances of Ellipsis found amongst 10001 sentences

@@ -1,0 +1,135 @@
+MORE DETAILED OBSERVATIONS
+
+"If you do, ask him to take you."
+"If you don't, I'll kill you!"
+"If it hurts, act like it doesn't."
+"Sometimes I feel like I know her and sometimes I don't."
+
+	Detection and Resolution both correct.
+
+"Would you believe that, too?"
+"Can I see what's in your pocket?"
+
+	'That' marked as intensifier in "Would you believe that, too?". Would is marked as a licensor for ellipsis as it is usually used as a helper verb for the main verb for 
+	e.g. "I would like to have a cup of tea." But when it is used as a yes-no question, the next word is the Noun subject and the code detects it as Ellipsis. This is true for most yes/no
+	question type sentences where helper verbs are detected but the main verb comes after the subject and the code considers it as a Verbal Ellipsis. 
+
+	In question type (yes/no I think), resolution should be after the subject and not after 'can, could, would'. "Are [subj] [[head_verb][rest_of_the_VP]]?" type questions would fit here as well.
+
+"While watching her sleep like a baby, it may be forward, but this occurred to me."
+	
+	Ellipsis is detected at "be" here by her code. But "be" here is the main verb and is correctly marked by POS Tagger. Doubt: Is "forward" here adjective or adverb. If the word
+	'thought' is placed after 'this', as it is the only word that fits, by coreference resolution 'it' must be the 'thought' and the word 'forward' would then describe the 
+	'thought' and hence must be an adjective. It is marked asn adverb by the Stanford POS tagger and could be the cause for incorrect detection for Ellipsis as it expects a verb 
+	because of the presence of the adverb.
+
+Informally used verbs like 'gonna', 'gotcha' need to be handled in the preprocessing stage before ellipsis detection.
+
+"I did, but not to see auntie!"
+	
+	Out of context ellipsis needs to be handled as well and not just from within the sentence. Here the Ellipsis resolution at 'did' is correct which is the helper verb here but the main verb
+	that is used for resolution is 'see' as per Niyatii's code which is incorrect. The correct resolution comes from a different sentence which is out of the context of this current sentence.
+
+"Don't be a coward."
+
+	Do and Be forms usually come directly after each other in sentences of the following forms:
+		[Do_form][Be_form][ NP [AdjP] ] e.g. Dont be a coward.
+		[Do_form][Be_form][PrepP [NP]] e.g. Do be with us.
+		[Do_form][Be_form][NP]  (This is similar to the first one) e.g. Do be my friend.
+	In all these scenarios, 'Be' always is the main verb, which the code identifies correctly and it also identifies 'Do' as auxiliary verb.
+	POS Tagging isn't incorrect here but the code identifies an 'aux + vb' combination and perhaps since the head verb here is 'be', the code INCORRECTLY
+	affirms that ellipsis occurred with Don't as the licensor. This is incorrect. Another assumption is that POS Tagger separates negation from the aux verb. 
+	Since this negation acts as a separate entity within the list of POS tags, the next term after the aux verb is the negation within the array and Ellipsis is detected.
+	A different rule for such negations might fix this.
+
+	Multiple auxs might be in sentence. If more than one aux are in the sentence, then this must be handled as a separate case.
+
+"But, you know, she must have been an extraordinary girl."
+
+	There is a combination of [modal + aux verb + main verb]. Here the modal and aux being adjacent causes an issue as the code looks for a main verb 
+	right after the Modal 'must' and finds another aux 'have' and considers 'must' as the licensor of the ellipsis, because head verb isn't adjacent to 
+	the modal.
+
+"Can't I join us, can I?"
+	
+	VPE Exists here by after 'I'. The Licensor here is 'Can' which is correct but since it is a question, the subject 'I' comes after 'Can' and hence the
+	resolution should come after 'I' and not after 'Can'. This is another case of Yes/No question (Modal Can for Permission in this very scenario) causing resolution
+	at the incorrect spot. Correct resolution therefore, should be 'Can't I join us? Can I join ('you' or any other fitting object NP which is missing 
+	because only head verb is resolved in this code.)
+
+"If I prepare nothing, she may murder me."
+
+	Here the ellipsis detection is incorrect purely because of the inconsistency of the POS Tagger. The word 'murder' here is tagged as a Noun instead of a verb.
+	Multiple POS Taggers can be used to resolve such inconsistencies where in case of conflicts the POS Tag for a word with highest number of votes amongst different
+	POS Taggers is considered the correct POS Tag.
+
+"You mean she could be my pussy?"
+
+	Another case of 'be' being a main verb might be causing this issue. There is an if condition for modals where it looks at whether the parent of the modal aux is
+	part of 'to_be' verbs where 'be' is acting as a main verb. But here the parent isn't 'be' for 'could'. So for this particular sentence it could be an issue with 
+	the POS Tagger itself as well.
+
+"I think you didn't."
+"If you do, I'll take her."
+"She wanted to introduce a nice man to me, but I couldn't."
+
+	Resolution outside the context of the sentence. Forward and Backward gapping distance can be configured to work beyond the sentence.
+
+
+"I had my eyes closed."
+
+	'Closed' here is an adjective and 'had' is the head verb. 'Had' is marked by the POS Tagger correctly with VBD (Verb past tense)
+	but it has marked 'closed' also as a verb (VBN) which is incorrect. This is a fault which can be resolved by using multiple POS Taggers
+	and using a voting system as mentioned above.
+	
+"The prettiest is when she's playing the piano."
+
+	The code has exceptions to handle situations wherein if after 'is' there is a noun or an adjective then that 'is' acts as a main verb.
+	For e.g. He is single. Here the code doesn't detect an ellipsis. Same is the case when there is an adverb after the 'is', but here the next word
+	after 'is' is 'when' which is a 'wh-adverb' as marked by the Stanford POS Tagger. Here the exceptions added that could have marked the 'is' as 
+	main verb fail and Ellipsis is hence detected incorrectly at 'is'.
+
+"What are we supposed to do if caught by teacher?"
+
+	The code has the following line which is made to handle 'to do' cases. Where if the 'do' is the main Verb (i.e. VB) then it does the following
+	for all the words in the parsed sentence, where it looks for the 'TO' and indicates that Ellipsis doesn't exist.
+
+	This fails here for some reason even if the ROOT for 'to' points to the row index for 'do' and the POS Tag marked matches 'TO'
+	as in the following If statement. [CONSULT THIS WITH MA'AM]
+
+	if((int)(Parsed[i][1])-1 == row_index and Parsed[i][3].casefold() == 'TO'.casefold()):
+			ellipsis = False
+
+"Doesn't look bad, does he?"
+
+	The ellipsis detection and identification of ellided verb 'look' is correct here but the resolution is done before 'he' instead of after 'he' since the 
+	sentence is a question type sentence. This can be fixed by looking for explicit POS Tag for a question mark type punctuation, where
+	the position of the resolved ellipsis is adjusted accordingly. We might have to add further restrictions to even just question type sentences
+	with verbal ellipsis involving 'do' as aux in order to accomodate for more complex sentences of this form, if and when we encounter them.
+
+"Does this tree look the same as before?"
+	
+	If the sentence was 'The tree does look the same as before', then the 'does' would marked as an AUX. Here the 'does' has been marked
+	as root for the dependency tree to which the verb 'look' is linked but here 'look' is still the main verb to which 'does' acts like an
+	aux. To me, this doesn't look like the issue of having a yes/no question type sentence that is causing a False Positive. Therefore,
+	This can be perhaps resolved using multiple POS Tags as mentioned before with the voting system in place. 
+
+"Sorry, we did everything we can"
+"We have to find something to do"
+"Get as many as you can"
+
+	Code detects ellipsis in these instances. Except for 'We have to find something to do', rest two sentences have correct ellipsis detection but while trying to resolve it, the code runs
+	into the following error. 
+	
+	Traceback (most recent call last):
+  		File "Score_approach.py", line 642, in <module>
+    			found_elliptical_verb = Partial_Verb_Phrase_Ellipsis(sent, All_words_copy, Parsed)
+  		File "Score_approach.py", line 582, in Partial_Verb_Phrase_Ellipsis
+    			Output_sentence = add_elliptical_verb(Parsed, Output_sentence, row_index, added_words, elliptical_verb, ellipsis)
+  		File "Score_approach.py", line 520, in add_elliptical_verb
+    			if(Parsed[row_index+1][0] == "n't"):
+	IndexError: list index out of range
+	
+	This error is happening because the aux 'can' and 'do' are at the end of the sentence and row_index + 1 makes the index list go out of range.
+	Therefore, such cases with AUX verbs or potential licensors at the end of the sentence need to be handled as well.
+	Correct resolution of the two aforementioned sentences should then be: "Sorry, we did everything we can do.", and "Get as many as you can get."

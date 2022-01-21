@@ -1,0 +1,51 @@
+Observed until line number 3155
+
+False Positives manually found:
+    Why aren't you at your aunt's house?
+    How are you?
+    Who are you, asshole?
+    How old are you kids?
+    Why am I here?
+    So what are you gonna do?
+    Wasn't that girl your girlfriend?
+
+Ambiguous Cases (Doubts):
+    That long?
+    Western or Korean style?
+    40,000 won?
+    No, I'm not, sir!
+    Please, just for once!
+    Up four points in three years.
+    In the bathroom.
+    Nice body, too.
+
+False Negatives manually found:
+    Still there? [Maybe - 'Be' verb type 'Are' is missing ]
+    None on the first floor? [Maybe - 'Be' verb type 'Are'/'Aren't' is missing]
+    This phone's owner? [Maybe - 'Who is' or some other fitting Verb Phrase perhaps missing. 
+                        Question - How will only using head verb here suffice.]
+    Here? [Same as above maybe - 'Is/are she/he/they Here?' or 'She/he's (or They're) here?']
+    Hands in the air! - ['Place your hands in the air!' or 'Keep your hands in the air!' after resolution]
+    To Bupyung station now! ['Come to Bupyung station now', based on exophoric resolution as the line before
+                            this was 'Come out!']
+    So I did that, right? [Exophoric Ellipsis. Ellipsis should have been detected at 'did' and the resolution for it
+                          comes from the dialogue above this which says - 'To a girl like this, you need to show her who's the boss.'
+                          Here I also feel that resolving only the head verb 'show' will be less helpful than resolving the entire VP]
+    If you can, raise it with her. [Here the resolution of the Ellipsis is after the Licensor and not before. This is ensured
+                                   because of the comma after 'can'. The 'can' modal is still a licensor here for ellided head verb 'raise'.
+                                   The sentence after resolution then would be "If you can raise, raise it with her."]
+
+
+Correct Detection but no resolution (Exophoric):
+    Uncle does, too.
+    Yes, I did.
+    Yes, you did. [This is the answer to the 'So I did that, right?' in the above section and the resolution
+                  for this would be exophoric just like how it is above, but here the context goes back 2 dialogues
+                  than 1 to the dialogue - 'To a girl like this, you need to show her who's the boss.'
+                  Here I also feel that resolving only the head verb 'show' will be less helpful than resolving the entire VP]
+    I will. [Here the Exophoric Resolution comes from the dialogue before this sentence. The previous dialogue says: 
+            "Finish reading it." Here we also see a compound verb coming into play as well. The rules must also ensure that
+            the correct head verb "Finish" is chosen here and not "reading" for resolution.]
+Incorrect POS Tag marking:
+    A thousand won left! ['left' is marked as adverb and not Verb]
+
